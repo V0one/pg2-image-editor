@@ -13,37 +13,26 @@ def import_images_from_folder(folder_path):
         list: Liste des objets PIL.Image.Image représentant les images importées.
     """
     images = []
-    try:
-        # Vérifie que le dossier existe
-        if not os.path.exists(folder_path):
-            log(f"Le dossier '{folder_path}' n'existe pas.")
-            raise FileNotFoundError(f"Le dossier '{folder_path}' n'existe pas.")
+    # Parcourir tous les fichiers du dossier
+    for file_name in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, file_name)
+        # Vérifier si c'est un fichier image
+        if os.path.isfile(file_path) and file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
+            image = Image.open(file_path)
+            if image is not None:
+                images.append((file_name, image))
+            else:
+                print(f"Impossible de lire l'image : {file_name}")
+                log(f"Impossible de lire l'image : {file_name}")
+    
+    print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
+    log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
+    return images
 
-        # Parcours tous les fichiers du dossier
-        for filename in os.listdir(folder_path):
-            # Construction du chemin complet du fichier
-            file_path = os.path.join(folder_path, filename)
+folder_path = "img/default"  #Chemin vers le dossier contenant les images
+images = import_images_from_folder(folder_path) 
 
-            # Vérifie si c'est une image valide
-            try:
-                with Image.open(file_path) as img:
-                    images.append(img.copy())  # Copie l'image pour éviter les problèmes de fermeture
-            except (IOError, SyntaxError):
-                log(f"Le fichier '{filename}' n'est pas une image valide, il est ignoré.")
-                print(f"Le fichier '{filename}' n'est pas une image valide, il est ignoré.")
-        
-        if not images:
-            log("Aucune image valide n'a été trouvée dans le dossier.")
-            print("Aucune image valide n'a été trouvée dans le dossier.")
-        return images
+#if images:
+ #   for image in images :
+  #      image[1].show()
 
-    except Exception as e:
-        log(f"Erreur lors de l'importation des images : {e}")
-        print(f"Erreur lors de l'importation des images : {e}")
-        return []
-
-# Exemple d'utilisation
-folder = "img/default/"  # Remplacez par le chemin de votre dossier
-images_list = import_images_from_folder(folder)
-
-print(f"{len(images_list)} image(s) importée(s).")
