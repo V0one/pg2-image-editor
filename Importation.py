@@ -1,25 +1,19 @@
 import cv2
 from PIL import Image
-
-import os
 from logger import *
+import os
 
 def import_images_from_folder(folder_path):
     """
-    fonction: Importe toutes les images d'un dossier.
-    
+    Importe toutes les images d'un dossier donné.
+
     Args:
         folder_path (str): Chemin vers le dossier contenant les images.
-        
+
     Returns:
-        list: Liste des images chargées sous forme de matrices NumPy.
+        list: Liste des objets PIL.Image.Image représentant les images importées.
     """
     images = []
-    if not os.path.exists(folder_path):
-        print(f"Le dossier '{folder_path}' n'existe pas.")
-        log(f"Le dossier '{folder_path}' n'existe pas.")
-        return images
-
     # Parcourir tous les fichiers du dossier
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
@@ -36,6 +30,9 @@ def import_images_from_folder(folder_path):
     log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
 
+# Exemple d'utilisation
+folder = "img/default/"  # Remplacez par le chemin de votre dossier
+images_list = import_images_from_folder(folder)
 
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
 images = import_images_from_folder(folder_path) 
