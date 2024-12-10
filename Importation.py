@@ -1,4 +1,3 @@
-import cv2
 from PIL import Image
 from logger import *
 import os
@@ -13,6 +12,9 @@ def import_images_from_folder(folder_path):
     Returns:
         list: Liste des objets PIL.Image.Image représentant les images importées.
     """
+    if not os.path.exists(folder_path):
+        print(f"Le dossier '{folder_path}' n'existe pas.")
+        log(f"Le dossier '{folder_path}' n'existe pas.")
     images = []
     # Parcourir tous les fichiers du dossier
     for file_name in os.listdir(folder_path):
