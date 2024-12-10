@@ -1,6 +1,8 @@
 import cv2
 import os
 
+
+
 def import_images_from_folder(folder_path):
     """
     Importer toutes les images d'un dossier.
@@ -29,3 +31,13 @@ def import_images_from_folder(folder_path):
     
     print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
+
+
+folder_path = "img/default"
+images = import_images_from_folder(folder_path)
+
+# Exemple pour afficher une image importée
+if images:
+    cv2.imshow("Image Exemple", images[0])
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
