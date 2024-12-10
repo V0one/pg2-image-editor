@@ -3,21 +3,21 @@ from datetime import datetime
 
 def log(message):
     """
-    Écrit un message dans le fichier movie.log avec un horodatage.
+    Écrit un message dans le fichier logger.log avec un horodatage.
 
     :param message = str 
     """
-    log_file_path = os.path.join(os.getcwd(), "movie.log")
+    log_file_path = os.path.join(os.getcwd(), "logger.log")
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(log_file_path, "a") as log_file:
         log_file.write(f"[{timestamp}] {message}\n")
 
-def showlog(log_file='movie.log'):
+def showlog(log_file='logger.log'):
     """
     Affiche le contenu du fichier de log.
 
     Param:
-    log_file (str): Le chemin vers le fichier de log (par défaut 'movie.log').
+    log_file (str): Le chemin vers le fichier de log (par défaut 'logger.log').
     """
     try:
         with open(log_file, 'r') as file:
@@ -36,7 +36,7 @@ def showlog(log_file='movie.log'):
 def read_logs():
     """Lit le fichier des logs."""
     try:
-        with open("movie.log", "r") as log_file:
+        with open("logger.log", "r") as log_file:
             return log_file.readlines()
     except FileNotFoundError:
         return ["Aucun log disponible."]
