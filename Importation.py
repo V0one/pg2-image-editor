@@ -1,4 +1,5 @@
 import cv2
+from PIL import Image
 
 import os
 from logger import *
@@ -24,7 +25,7 @@ def import_images_from_folder(folder_path):
         file_path = os.path.join(folder_path, file_name)
         # Vérifier si c'est un fichier image
         if os.path.isfile(file_path) and file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
-            image = cv2.imread(file_path)
+            image = Image.open(file_path)
             if image is not None:
                 images.append(image)
             else:
@@ -40,6 +41,6 @@ folder_path = "img/default"  #Chemin vers le dossier contenant les images
 images = import_images_from_folder(folder_path) 
 
 if images:
-    cv2.imshow("Image Exemple", images[0])
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    for image in images :
+        image.show()
+
