@@ -34,7 +34,7 @@ output_folder = "img/modified"  # Dossier pour sauvegarder les images floutées
 images_list = import_images_from_folder(input_folder)
 print(images_list[0][1])
 
-apply_blur_filter(images[], output_folder)
+apply_blur_filter(images, output_folder)
 
 
 
