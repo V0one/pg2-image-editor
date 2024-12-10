@@ -1,10 +1,11 @@
 import cv2
 
 import os
+from logger import *
 
 def import_images_from_folder(folder_path):
     """
-    Importer toutes les images d'un dossier.
+    fonction: Importe toutes les images d'un dossier.
     
     Args:
         folder_path (str): Chemin vers le dossier contenant les images.
@@ -15,6 +16,7 @@ def import_images_from_folder(folder_path):
     images = []
     if not os.path.exists(folder_path):
         print(f"Le dossier '{folder_path}' n'existe pas.")
+        log(f"Le dossier '{folder_path}' n'existe pas.")
         return images
 
     # Parcourir tous les fichiers du dossier
@@ -27,15 +29,16 @@ def import_images_from_folder(folder_path):
                 images.append(image)
             else:
                 print(f"Impossible de lire l'image : {file_name}")
+                log(f"Impossible de lire l'image : {file_name}")
     
     print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
+    log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
 
 
-folder_path = "img/default"
-images = import_images_from_folder(folder_path)
+folder_path = "img/default"  #Chemin vers le dossier contenant les images
+images = import_images_from_folder(folder_path) 
 
-# Exemple pour afficher une image importée
 if images:
     cv2.imshow("Image Exemple", images[0])
     cv2.waitKey(0)
