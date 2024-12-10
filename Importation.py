@@ -1,4 +1,5 @@
 from PIL import Image
+from logger import *
 import os
 
 def import_images_from_folder(folder_path):
@@ -15,6 +16,7 @@ def import_images_from_folder(folder_path):
     try:
         # Vérifie que le dossier existe
         if not os.path.exists(folder_path):
+            log(f"Le dossier '{folder_path}' n'existe pas.")
             raise FileNotFoundError(f"Le dossier '{folder_path}' n'existe pas.")
 
         # Parcours tous les fichiers du dossier
@@ -27,13 +29,16 @@ def import_images_from_folder(folder_path):
                 with Image.open(file_path) as img:
                     images.append(img.copy())  # Copie l'image pour éviter les problèmes de fermeture
             except (IOError, SyntaxError):
+                log(f"Le fichier '{filename}' n'est pas une image valide, il est ignoré.")
                 print(f"Le fichier '{filename}' n'est pas une image valide, il est ignoré.")
         
         if not images:
+            log("Aucune image valide n'a été trouvée dans le dossier.")
             print("Aucune image valide n'a été trouvée dans le dossier.")
         return images
 
     except Exception as e:
+        log(f"Erreur lors de l'importation des images : {e}")
         print(f"Erreur lors de l'importation des images : {e}")
         return []
 
