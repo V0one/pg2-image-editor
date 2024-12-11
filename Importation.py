@@ -23,7 +23,7 @@ def import_images_from_folder(folder_path):
         if os.path.isfile(file_path) and file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
             image = Image.open(file_path)
             if image is not None:
-                images.append((file_name,image))
+                images.append((file_name, image))
             else:
                 print(f"Impossible de lire l'image : {file_name}")
                 log(f"Impossible de lire l'image : {file_name}")
@@ -32,13 +32,10 @@ def import_images_from_folder(folder_path):
     log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
 
-# Exemple d'utilisation
-folder = "img/default/"  # Remplacez par le chemin de votre dossier
-images_list = import_images_from_folder(folder)
-
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
 images = import_images_from_folder(folder_path) 
 
-print(images)
-
+#if images:
+ #   for image in images :
+  #      image[1].show()
 
