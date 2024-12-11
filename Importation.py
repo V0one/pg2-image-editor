@@ -2,7 +2,7 @@ from PIL import Image
 from logger import *
 import os
 
-def import_images_from_folder(folder_path):
+def import_images_from_folder():
     """
     Importe toutes les images d'un dossier donné.
 
@@ -12,15 +12,12 @@ def import_images_from_folder(folder_path):
     Returns:
         list: Liste des objets PIL.Image.Image représentant les images importées.
     """
-    if not os.path.exists(folder_path):
-        print(f"Le dossier '{folder_path}' n'existe pas.")
-        log(f"Le dossier '{folder_path}' n'existe pas.")
     images = []
     # Parcourir tous les fichiers du dossier
-    for file_name in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, file_name)
+    for file_name in os.listdir("img/default"):
+        file_path = "img/default/" + file_name
         # Vérifier si c'est un fichier image
-        if os.path.isfile(file_path) and file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
+        if file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
             image = Image.open(file_path)
             if image is not None:
                 images.append((file_name, image))
@@ -33,9 +30,10 @@ def import_images_from_folder(folder_path):
     return images
 
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
-images = import_images_from_folder(folder_path) 
+images = import_images_from_folder() 
+print(images)
 
 #if images:
- #   for image in images :
-  #      image[1].show()
+#    for image in images :
+#        image[1].show()
 
