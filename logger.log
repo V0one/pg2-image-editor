@@ -4,3 +4,47 @@
 [2024-12-10 15:51:15] 4 images ont été importées depuis 'img/default'.
 [2024-12-11 12:02:10] 4 images ont été importées depuis 'img/default'.
 [2024-12-11 12:04:00] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:09:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:09:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:09:22] Erreur lors de l'application du filtre : <function blur at 0x100812ac0>
+[2024-12-11 12:10:05] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:10:05] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:10:05] Erreur lors de l'application du filtre : <function blur at 0x100842ac0>
+[2024-12-11 12:10:59] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:10:59] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:10:59] Erreur lors de l'application du filtre : <function blur at 0x103122ac0>
+[2024-12-11 12:12:30] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:12:30] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:13:32] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:13:32] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:13:32] Erreur lors de l'application du filtre : <function blur at 0x100682ac0>
+[2024-12-11 12:16:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:16:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:16:58] Erreur lors de l'application du filtre : <function blur at 0x100ec2ac0>
+[2024-12-11 12:18:23] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:18:23] Erreur lors de l'application du filtre : <function blur at 0x104566ac0>
+[2024-12-11 12:18:38] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:18:38] Erreur lors de l'application du filtre : <function blur at 0x1048e6ac0>
+[2024-12-11 12:19:13] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:19:13] Erreur lors de l'application du filtre : <function blur at 0x104fcaac0>
+[2024-12-11 12:19:19] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:19:19] Erreur lors de l'application du filtre : <function blur at 0x105066ac0>
+[2024-12-11 12:20:43] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:20:43] Erreur lors de l'application du filtre : <function blur at 0x102356ac0>
+[2024-12-11 12:22:14] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:22:14] Erreur lors de l'application du filtre : <function blur at 0x10515aac0>
+[2024-12-11 12:26:13] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 12:26:57] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 13:32:51] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 13:33:04] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 13:33:04] Erreur lors de l'application du filtre : <function blur at 0x104772ac0>
+[2024-12-11 13:33:31] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 13:33:32] blur à été applique à toute les images dans default : img/modified/1.jpeg
+[2024-12-11 13:33:33] blur à été applique à toute les images dans default : img/modified/4.png
+[2024-12-11 13:33:33] blur à été applique à toute les images dans default : img/modified/2.jpg
+[2024-12-11 13:33:34] blur à été applique à toute les images dans default : img/modified/3.jpg
+[2024-12-11 13:41:48] 4 images ont été importées depuis 'img/default'.
+[2024-12-11 13:41:48] grey à été applique à toute les images dans default : img/modified/1.jpeg
+[2024-12-11 13:41:48] grey à été applique à toute les images dans default : img/modified/4.png
+[2024-12-11 13:41:48] grey à été applique à toute les images dans default : img/modified/2.jpg
+[2024-12-11 13:41:48] grey à été applique à toute les images dans default : img/modified/3.jpg

@@ -6,8 +6,8 @@ from Importation import *
 input_folder = "img/default"  # Dossier contenant les images
 output_folder = "img/modified"  # Dossier pour sauvegarder les images modifiés 
 
-def blur (image) :
-    blured_img = image.filter(ImageFilter.GaussianBlur(100))
+def blur (image,n) :
+    blured_img = image.filter(ImageFilter.GaussianBlur(n))
     return blured_img
 
 def grey (image) :
@@ -35,24 +35,29 @@ def apply_filter_images(liste_images, nom_effect, param):
         output_folder (str): Chemin vers le dossier où sauvegarder les images floutées.
     """
 
-    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated }
-
+    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated}
+    list_img_modified = []
     try:
         # Crée le dossier de sortie s'il n'existe pas
-        #os.makedirs(output_folder, exist_ok=True)
         for img in liste_images:
-            # Applique le filtre de flou
-            img_filter = img[1].filter(dico[nom_effect](img[1],param))
+            if nom_effect == "grey" :
+                img_filter = dico[nom_effect](img[1])
+            else : 
+                img_filter = dico[nom_effect](img[1],param)
             # Génère le chemin du fichier de sortie
-            output_path = "img/modified/" + img
+            output_path = "img/modified/" + img[0]
             # Sauvegarde l'image floutée
-            img_filter.save(output_path)
+            list_img_modified.append(img_filter)
             print(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
             log(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
+            return list_img_modified
 
     except Exception as e:
         log(f"Erreur lors de l'application du filtre : {e}")
         print(f"Erreur lors de l'application du filtre : {e}")
 
-
+dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated }
 liste_images = import_images_from_folder()
+img = dico["blur"](liste_images[0][1], 100)
+apply_filter_images(liste_images,"grey", None)
+#img.show()

@@ -30,8 +30,8 @@ def import_images_from_folder():
     return images
 
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
-images = import_images_from_folder() 
-print(images)
+#images = import_images_from_folder() 
+#print(images)
 
 #if images:
 #    for image in images :
