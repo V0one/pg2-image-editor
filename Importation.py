@@ -1,5 +1,6 @@
 from PIL import Image
 from logger import *
+
 import os
 
 def import_images_from_folder():
@@ -28,6 +29,25 @@ def import_images_from_folder():
     print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
+
+def process_images_in_folder(input_folder, output_folder, filters):
+    """Traite toutes les images dans un dossier et applique les filtres."""
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    for filename in os.listdir(input_folder):
+        input_path = os.path.join(input_folder, filename)
+        if os.path.isfile(input_path):
+            try:
+                output_path = os.path.join(output_folder, filename)
+                img = import_images_from_folder(folder_path)
+                if img:
+                    img.save(output_path)
+                    log(f"Image traitée et sauvegardée : {output_path}")
+                else:
+                    log(f"Échec du traitement pour l'image : {input_path}")
+            except Exception as e:
+                log(f"Erreur inattendue avec le fichier {filename} : {e}")
 
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
 #images = import_images_from_folder() 
