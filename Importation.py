@@ -23,7 +23,7 @@ def import_images_from_folder(folder_path):
         if os.path.isfile(file_path) and file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
             image = Image.open(file_path)
             if image is not None:
-                images.append(image)
+                images.append((file_name,image))
             else:
                 print(f"Impossible de lire l'image : {file_name}")
                 log(f"Impossible de lire l'image : {file_name}")
@@ -39,7 +39,6 @@ images_list = import_images_from_folder(folder)
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
 images = import_images_from_folder(folder_path) 
 
-if images:
-    for image in images :
-        image.show()
+print(images)
+
 
