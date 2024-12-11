@@ -38,6 +38,24 @@ print(images_list[0][1])
 #apply_blur_filter(images, output_folder)
 
 
+def blur (image, n , nom) :
+    blured_img = image.filter(ImageFilter.GaussianBlur(n))
+
+    blured_img.save("img/modified/" + nom)
+
+
+
+
+def grey (image, nom) :
+    image_gray = image.convert("L")
+    image_gray.show() 
+    image_gray.save("img/modified/" + nom)
+
+def dilated_img (image, nom) :
+    image_dilated = image.filter(ImageFilter.MaxFilter(3))
+    image_dilated.show()
+    
+    
 def image_rotated(images, output_folder, angle):
     '''
     Pivote les images selon l'angle saisi et les sauvegarde.
