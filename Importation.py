@@ -3,7 +3,7 @@ from logger import *
 
 import os
 
-def import_images_from_folder():
+def import_images_from_folder(input_folder):
     """
     Importe toutes les images d'un dossier donné.
 
@@ -15,8 +15,8 @@ def import_images_from_folder():
     """
     images = []
     # Parcourir tous les fichiers du dossier
-    for file_name in os.listdir("img/default"):
-        file_path = "img/default/" + file_name
+    for file_name in os.listdir(input_folder):
+        file_path = input_folder + file_name
         # Vérifier si c'est un fichier image
         if file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
             image = Image.open(file_path)

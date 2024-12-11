@@ -122,7 +122,7 @@ def apply_filter_images(liste_images, nom_effect, param):
     try:
         # Crée le dossier de sortie s'il n'existe pas
         for img in liste_images:
-            if nom_effect == "grey" or nom_effect == "" :
+            if nom_effect == "grey" or nom_effect == "aquarell" :
                 img_filter = dico[nom_effect](img[1])
             else : 
                 img_filter = dico[nom_effect](img[1],param)
