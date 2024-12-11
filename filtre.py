@@ -82,7 +82,31 @@ def apply_custom_aquarelle_filter(image):
         return combined
 
     except Exception as e:
-        print(f"Erreur lors de l'application du filtre aquarelle : {e}")        
+        print(f"Erreur lors de l'application du filtre aquarelle : {e}")       
+
+def image_rotated(images, angle):
+    '''
+    Pivote les images selon l'angle saisi et les sauvegarde.
+
+    Args:
+        images (list): Liste de tuples (nom_fichier, PIL.Image.Image) représentant les images à pivoter.
+        output_folder (str): Chemin vers le dossier où sauvegarder les images pivoters.
+        angle (float): Angle de rotation en degrés.
+    '''
+    try:
+
+        for img in images:
+            # Applique la rotation
+            rotated_img = img[1].rotate(angle, expand=True)
+            # Génère le chemin du fichier de sortie
+            # Sauvegarde l'image pivoter
+            print(f"Image pivoté et sauvegardé")
+            log (f"Image pivoté et sauvegardé ")
+            return rotated_img
+    except Exception as e:
+        print(f"Erreur lors de la rotation des images : {e}")
+        log(f"Erreur lors de la rotation des images : {e}")
+
 
 def apply_filter_images(liste_images, nom_effect, param):
     """
@@ -93,7 +117,7 @@ def apply_filter_images(liste_images, nom_effect, param):
         output_folder (str): Chemin vers le dossier où sauvegarder les images floutées.
     """
 
-    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter }
+    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotaded" : image_rotated }
     list_img_modified = []
     try:
         # Crée le dossier de sortie s'il n'existe pas
@@ -118,6 +142,7 @@ def apply_filter_images(liste_images, nom_effect, param):
 liste_images = import_images_from_folder()
 
 img =  apply_dimensions_filter(liste_images[0][1],3)
+
 
 #apply_filter_images(liste_images,"grey", None)
 #img.show()
