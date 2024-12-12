@@ -63,26 +63,31 @@ def main():
         print("Usage : python3 main.py [--log | --help | --filters]")
 
 
-input_folder = "img/default"
-output_folder = "img/modified"
+input_folder = "img/default/"
+output_folder = "img/modified/"
+
+liste_image = import_images_from_folder(input_folder)
+
+
 def processing(input_folder, output_folder, filter) :
     tableau_img = import_images_from_folder(input_folder)
-    tableau_image_process = []
     tableau_filtre = filter.split("&")
     for filtre in tableau_filtre :
         if ":" in filtre :
             tableau_filtre_et_param = filtre.split(":")
-            if len(tableau_filtre) > 3: 
-                tab_img_process = apply_filter_images(tableau_filtre_et_param[0],(tableau_filtre_et_param[1],tableau_filtre_et_param[2]),tableau_filtre_et_param[3])
+            if len(tableau_filtre_et_param) > 3 and tableau_filtre_et_param[0] == "text": 
+                tableau_img = apply_filter_images(tableau_img, tableau_filtre_et_param[0],[tableau_filtre_et_param[1],tableau_filtre_et_param[2],tableau_filtre_et_param[3]])
             else :
-                tab_img_process = apply_filter_images(tableau_img,tableau_filtre_et_param[0],tableau_filtre_et_param[1])
+                tableau_img = apply_filter_images(tableau_img,tableau_filtre_et_param[0],int(tableau_filtre_et_param[1]))
         else :
-            tableau_img_process= apply_filter_images(tableau_img, tableau_filtre_et_param[0], None)
+            tableau_img = apply_filter_images(tableau_img, filtre, None)
+    for image in tableau_img :
+        image[1].show()
+        image[1].save(output_folder + "/" + image[0])
         
-        
+processing(input_folder,output_folder,"grey&rotated:2")
+
+#if __name__ == "__main__":
+#    main()
 
 
-
-    pass
-if __name__ == "__main__":
-    main()

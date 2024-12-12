@@ -2,7 +2,7 @@ from PIL import Image, ImageFilter, ImageDraw, ImageFont, ImageEnhance, ImageOps
 from logger import *
 from Importation import *
 
-input_folder = "img/default"  # Dossier contenant les images
+input_folder = "img/default/"  # Dossier contenant les images
 output_folder = "img/modified"  # Dossier pour sauvegarder les images modifiés 
 
 def blur (image,n) :
@@ -49,11 +49,11 @@ def apply_writing_filter(images, position, text):
             print(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             log(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             return 
-        fonte = ImageFont.truetype("Avenir.ttc", size=40)
+        font = ImageFont.truetype("arial.ttf", 60)
         draw = ImageDraw.Draw(images)
-        draw.text((position[0], position[1]), text , fill="black", font=fonte)
+        draw.text((position[0], position[1]), text , fill="black", font=font)
         log("Le texte à bien été placé sur l'image")
-        return draw
+        return images
     except Exception as e:
         log(f"Erreur lors de l'application du filtre de ecriture : {e}")
         print(f"Erreur lors de l'application du filtre de ecriture : {e}")
@@ -94,10 +94,8 @@ def image_rotated(images, angle):
         angle (float): Angle de rotation en degrés.
     '''
     try:
-
-        for img in images:
             # Applique la rotation
-            rotated_img = img[1].rotate(angle, expand=True)
+            rotated_img = images.rotate(angle, expand=True)
             # Génère le chemin du fichier de sortie
             # Sauvegarde l'image pivoter
             print(f"Image pivoté et sauvegardé")
@@ -117,31 +115,25 @@ def apply_filter_images(liste_images, nom_effect, param):
         output_folder (str): Chemin vers le dossier où sauvegarder les images floutées.
     """
 
-    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotaded" : image_rotated }
+    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotated" : image_rotated , "text" : apply_writing_filter}
     list_img_modified = []
     try:
         # Crée le dossier de sortie s'il n'existe pas
         for img in liste_images:
             if nom_effect == "grey" or nom_effect == "aquarell" :
                 img_filter = dico[nom_effect](img[1])
+            elif nom_effect == "text" :
+                img_filter = dico[nom_effect](img[1],(int(param[0]),int(param[1])),param[2])
             else : 
-                img_filter = dico[nom_effect](img[1],param)
-            # Génère le chemin du fichier de sortie
-            output_path = "img/modified/" + img[0]
-            # Sauvegarde l'image floutée
-            list_img_modified.append(img_filter)
-            print(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
-            log(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
-            return list_img_modified
+                img_filter = dico[nom_effect](img[1],50)
+            list_img_modified.append((img[0],img_filter))
+            print(f"{nom_effect.upper()} à été applique à toute les images")
+            log(f"{nom_effect} à été applique à toute les images")
+        return list_img_modified
 
     except Exception as e:
         log(f"Erreur lors de l'application du filtre : {e}")
         print(f"Erreur lors de l'application du filtre : {e}")
-
-
-liste_images = import_images_from_folder()
-
-img =  apply_dimensions_filter(liste_images[0][1],3)
 
 
 #apply_filter_images(liste_images,"grey", None)

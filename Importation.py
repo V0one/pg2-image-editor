@@ -49,6 +49,9 @@ def process_images_in_folder(input_folder, output_folder, filters):
             except Exception as e:
                 log(f"Erreur inattendue avec le fichier {filename} : {e}")
 
+
+
+
 folder_path = "img/default"  #Chemin vers le dossier contenant les images
 #images = import_images_from_folder() 
 #print(images)
