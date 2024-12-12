@@ -2231,3 +2231,65 @@
 [2024-12-12 22:58:07] resize a été appliqué à toutes les images
 [2024-12-12 22:58:07] L'image à bien été redimensionnée
 [2024-12-12 22:58:07] resize a été appliqué à toutes les images
+[2024-12-12 23:01:36] Application des filtres : dilate&grey&resize:0.5
+[2024-12-12 23:01:36] Dossier source : img/default/
+[2024-12-12 23:01:36] Dossier destination : img/modified/
+[2024-12-12 23:01:36] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 23:01:37] L'image a bien été dilatée
+[2024-12-12 23:01:37] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été dilatée
+[2024-12-12 23:01:37] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été dilatée
+[2024-12-12 23:01:37] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été dilatée
+[2024-12-12 23:01:37] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 23:01:37] grey a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 23:01:37] grey a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 23:01:37] grey a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 23:01:37] grey a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image à bien été redimensionnée
+[2024-12-12 23:01:37] resize a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image à bien été redimensionnée
+[2024-12-12 23:01:37] resize a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image à bien été redimensionnée
+[2024-12-12 23:01:37] resize a été appliqué à toutes les images
+[2024-12-12 23:01:37] L'image à bien été redimensionnée
+[2024-12-12 23:01:37] resize a été appliqué à toutes les images
+[2024-12-12 23:01:49] Application des filtres : dilate&resize:0.5
+[2024-12-12 23:01:49] Dossier source : img/default/
+[2024-12-12 23:01:49] Dossier destination : img/modified/
+[2024-12-12 23:01:49] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 23:01:49] L'image a bien été dilatée
+[2024-12-12 23:01:49] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:49] L'image a bien été dilatée
+[2024-12-12 23:01:49] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image a bien été dilatée
+[2024-12-12 23:01:50] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image a bien été dilatée
+[2024-12-12 23:01:50] dilate a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image à bien été redimensionnée
+[2024-12-12 23:01:50] resize a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image à bien été redimensionnée
+[2024-12-12 23:01:50] resize a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image à bien été redimensionnée
+[2024-12-12 23:01:50] resize a été appliqué à toutes les images
+[2024-12-12 23:01:50] L'image à bien été redimensionnée
+[2024-12-12 23:01:50] resize a été appliqué à toutes les images
+[2024-12-12 23:01:57] Application des filtres : dilated&resize:0.5
+[2024-12-12 23:01:57] Dossier source : img/default/
+[2024-12-12 23:01:57] Dossier destination : img/modified/
+[2024-12-12 23:01:57] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 23:01:57] Erreur lors de l'application du filtre : 'dilated'
+[2024-12-12 23:01:57] Erreur lors de l'application du filtre : 'NoneType' object is not iterable
+[2024-12-12 23:01:57] Il ya une erreur lors du process d'image : 'NoneType' object is not iterable, veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs
+[2024-12-12 23:04:02] Application des filtres : dilated&resize:0.5
+[2024-12-12 23:04:02] Dossier source : img/default/
+[2024-12-12 23:04:02] Dossier destination : img/modified/
+[2024-12-12 23:04:02] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 23:04:02] Le filtre rentré n'existe pas
+[2024-12-12 23:04:02] Erreur lors de l'application du filtre : 'NoneType' object is not iterable
+[2024-12-12 23:04:02] Il ya une erreur lors du process d'image : 'NoneType' object is not iterable, veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs

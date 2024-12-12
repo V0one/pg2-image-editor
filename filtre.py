@@ -224,7 +224,9 @@ def apply_filter_images(liste_images, nom_effect, param):
         
         # Retourne la liste d'images modifiées
         return list_img_modified
-
+    except KeyError :
+        log("Le filtre rentré n'existe pas")
+        print("Le filtre rentré n'existe pas")
     except Exception as e:
         # Log l'erreur en cas d'échec de l'application du filtre.
         log(f"Erreur lors de l'application du filtre : {e}")
