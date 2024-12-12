@@ -23,9 +23,9 @@ def grey (image) :
         log(f"Erreur lors de l'application du filtre noir et blanc {e}")
         print(f"Erreur lors de l'application du filtre noir et blanc {e}")
 
-def dilated (image , n) :
+def dilated (image) :
     try : 
-        image_dilated = image.filter(ImageFilter.MaxFilter(n))
+        image_dilated = image.filter(ImageFilter.MaxFilter(3))
         log(f"L'image à bien été  dilaté")
         return image_dilated
     except Exception as e : 
@@ -49,7 +49,7 @@ def apply_writing_filter(images, position, text):
             print(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             log(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             return 
-        font = ImageFont.truetype("arial.ttf", 60)
+        font = ImageFont.truetype("arial", 60)
         draw = ImageDraw.Draw(images)
         draw.text((position[0], position[1]), text , fill="black", font=font)
         log("Le texte à bien été placé sur l'image")
@@ -120,17 +120,19 @@ def apply_filter_images(liste_images, nom_effect, param):
     try:
         # Crée le dossier de sortie s'il n'existe pas
         for img in liste_images:
-            if nom_effect == "grey" or nom_effect == "aquarell" :
+            if nom_effect == "grey" or nom_effect == "aquarell" or nom_effect == "dilate":
                 img_filter = dico[nom_effect](img[1])
             elif nom_effect == "text" :
                 img_filter = dico[nom_effect](img[1],(int(param[0]),int(param[1])),param[2])
             else : 
-                img_filter = dico[nom_effect](img[1],50)
+                img_filter = dico[nom_effect](img[1],param)
             list_img_modified.append((img[0],img_filter))
             print(f"{nom_effect.upper()} à été applique à toute les images")
             log(f"{nom_effect} à été applique à toute les images")
         return list_img_modified
-
+    except KeyError :
+        log(f"Le filtre rentrée n'existe pas")
+        print(f"Le filtre rentrée n'existe pas")
     except Exception as e:
         log(f"Erreur lors de l'application du filtre : {e}")
         print(f"Erreur lors de l'application du filtre : {e}")

@@ -15,10 +15,8 @@ def main():
     command = sys.argv[1]
 
     if command == "--log":
-        logs = read_logs()
         print("=== Logs ===")
-        for log1 in logs:
-            print(log1.strip())
+        showlog()
 
     elif command == "--help":
         print("=== HELP ===")
@@ -37,7 +35,7 @@ def main():
 
     elif command == "--filters":
         if len(sys.argv) < 6:
-            print("Usage : python3 main.py --filters <filtre> --i <input_folder> --o <output_folder>")
+            print("Usage : python3 main.py --filters <filtre> --i <     input_folder> --o <output_folder>")
             sys.exit(1)
 
         filters = sys.argv[2]
@@ -63,21 +61,26 @@ def main():
 
 
 def processing(input_folder, output_folder, filter) :
-    tableau_img = import_images_from_folder(input_folder)
-    tableau_filtre = filter.split("&")
-    for filtre in tableau_filtre :
-        if ":" in filtre :
-            tableau_filtre_et_param = filtre.split(":")
-            if len(tableau_filtre_et_param) > 3 and tableau_filtre_et_param[0] == "text": 
-                tableau_img = apply_filter_images(tableau_img, tableau_filtre_et_param[0],[tableau_filtre_et_param[1],tableau_filtre_et_param[2],tableau_filtre_et_param[3]])
+    try :
+        tableau_img = import_images_from_folder(input_folder)
+        tableau_filtre = filter.split("&")
+        for filtre in tableau_filtre :
+            if ":" in filtre :
+                tableau_filtre_et_param = filtre.split(":")
+                if len(tableau_filtre_et_param) > 3 and tableau_filtre_et_param[0] == "text": 
+                    tableau_img = apply_filter_images(tableau_img, tableau_filtre_et_param[0],[tableau_filtre_et_param[1],tableau_filtre_et_param[2],tableau_filtre_et_param[3]])
+                else :
+                    tableau_img = apply_filter_images(tableau_img,tableau_filtre_et_param[0],int(tableau_filtre_et_param[1]))
             else :
-                tableau_img = apply_filter_images(tableau_img,tableau_filtre_et_param[0],int(tableau_filtre_et_param[1]))
-        else :
-            tableau_img = apply_filter_images(tableau_img, filtre, None)
-    for image in tableau_img :
-        image[1].save(output_folder + "/" + image[0])
-        
-
+                tableau_img = apply_filter_images(tableau_img, filtre, None)
+        for image in tableau_img :
+            image[1].save(output_folder  + image[0])
+    except AttributeError as e:
+        print(f"Il y a eu un probleme lors du process d'image : {e}")
+        log(f"Il y a eu un probleme lors du process d'image : {e}")
+    except Exception as e :
+        print(f"Il ya une erreur lors du process d'image : {e}, veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs")
+        log(f"Il ya une erreur lors du process d'image : {e}, veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs")
 
 if __name__ == "__main__":
     main()
