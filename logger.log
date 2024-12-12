@@ -1056,3 +1056,46 @@
 [2024-12-12 03:02:33] rotated � �t� applique � toute les images
 [2024-12-12 03:02:33] Image pivot� et sauvegard� 
 [2024-12-12 03:02:33] rotated � �t� applique � toute les images
+[2024-12-12 17:38:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:39:19] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:40:18] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:40:55] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:41:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:43:37] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:44:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:44:54] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:46:53] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:51:36] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:51:36] Application des filtres : resize:1.5
+[2024-12-12 17:51:36] Dossier source : img/default
+[2024-12-12 17:51:36] Dossier destination : img/modified
+[2024-12-12 17:54:48] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:54:48] Application des filtres : gray
+[2024-12-12 17:54:48] Dossier source : img/default
+[2024-12-12 17:54:48] Dossier destination : img/modified
+[2024-12-12 17:57:40] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:57:40] Application des filtres : gray
+[2024-12-12 17:57:40] Dossier source : img/default/
+[2024-12-12 17:57:40] Dossier destination : img/modified/
+[2024-12-12 17:57:40] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:57:40] Erreur lors de l'application du filtre : 'gray'
+[2024-12-12 17:58:45] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:59:25] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:59:25] Application des filtres : gray
+[2024-12-12 17:59:25] Dossier source : img/default/
+[2024-12-12 17:59:25] Dossier destination : img/modified/
+[2024-12-12 17:59:25] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 17:59:25] Erreur lors de l'application du filtre : 'gray'
+[2024-12-12 18:07:33] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:07:33] Application des filtres : grey
+[2024-12-12 18:07:33] Dossier source : img/default/
+[2024-12-12 18:07:33] Dossier destination : img/modified/
+[2024-12-12 18:07:33] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:07:33] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:07:33] grey à été applique à toute les images
+[2024-12-12 18:07:33] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:07:33] grey à été applique à toute les images
+[2024-12-12 18:07:33] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:07:33] grey à été applique à toute les images
+[2024-12-12 18:07:33] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:07:33] grey à été applique à toute les images

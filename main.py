@@ -59,9 +59,6 @@ def main():
         print("Usage : python3 main.py [--log | --help | --filters]")
 
 
-input_folder = "img/default/"
-output_folder = "img/modified/"
-
 liste_image = import_images_from_folder(input_folder)
 
 
