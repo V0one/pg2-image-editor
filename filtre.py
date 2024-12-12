@@ -1,12 +1,23 @@
 from PIL import Image, ImageFilter, ImageDraw, ImageFont, ImageEnhance, ImageOps
 from logger import *
 from Importation import *
-
+import math
 input_folder = "img/default/"  # Dossier contenant les images
 output_folder = "img/modified"  # Dossier pour sauvegarder les images modifiés 
 
 #Fonction qui applique un filtre de flou gaussien à une image.
 def blur (image,n) :
+    """
+        Cette fonction permet de rendre une image flou en fonction du niveau de flou n
+
+        Argument : 
+        :param image : Image importé 
+        :param n : facteur du niveau de flou 
+
+        Retourne :
+        La fonction retourne l'image modifié
+    
+    """
     try :
         # Applique le filtre de flou gaussien à l'image avec une intensité n.
         blured_img = image.filter(ImageFilter.GaussianBlur(n))
@@ -19,7 +30,18 @@ def blur (image,n) :
 
 #Fonction qui convertie une image en noir et blanc
 def grey(image):
+    """
+        Cette fonction permet de convertir une image en noir et blanc 
+
+        Argument : 
+        :param image : Image importé 
+
+        Retourne :
+        La fonction retourne l'image convertie 
+    
+    """
     try:
+        #Convertie l'image en noir et blanc
         image_gray = image.convert("L")
         log(f"L'image a bien été convertie en noir et blanc")
 
@@ -31,11 +53,23 @@ def grey(image):
         print(f"Erreur lors de l'application du filtre noir et blanc : {e}")
 
 #Fonction qui applique il dilatation sur l'image
-def dilated(image, n):
-    try:
-        image_dilated = image.filter(ImageFilter.MaxFilter(n))
-        log(f"L'image a bien été dilatée")
+def dilated(image):
+    """
+        Cette fonction permet de donnée un effet dilaté à une image 
 
+        Arguments : 
+
+        :param image : Image importé 
+
+        Retourne : 
+        La fonction retoure l'image convertie 
+
+    """
+    try:
+        #Application de l'effet dilaté à l'image
+        image_dilated = image.filter(ImageFilter.MaxFilter(3))
+        log(f"L'image a bien été dilatée")
+        print(f"L'image à bien été dilaté")
         # Retourne l'image dilatée.
         return image_dilated
     except Exception as e:
@@ -45,9 +79,21 @@ def dilated(image, n):
 
 #Fonction qui redimensionne une image
 def apply_dimensions_filter(images, scale):
+    """
+        Cette fonction peremt d'agrandir une image en fonction d'un nombre qui va être multiplié par la longueur et largeur de l'image
+
+        Arguments : 
+        :param images : Image importé
+        :param scale : Entier qui sert a agrandir l'image
+
+        Retourne : 
+        La fonction retourne l'image redimensionnée 
+    """
     try:
+        #Récupère la taille de l'image
         taille = images.size
-        img_resized = images.resize((taille[0] * scale,taille[1] * scale))  # Nouvelle taille (largeur, hauteur)
+        #Redimensionne l'image
+        img_resized = images.resize((math.floor(taille[0] * scale) ,math.floor(taille[1] * scale))) # Nouvelle taille (largeur * scale, hauteur *scale)
         log("L'image à bien été redimensionnée")
         #retourne l'image redimensionnée
         return img_resized
@@ -58,6 +104,17 @@ def apply_dimensions_filter(images, scale):
 
 #Fonction qui permet d'écrire sur une image
 def apply_writing_filter(images, position, text):
+    """
+        Cette fonction permet d'écrire sur une image 
+
+        Arguments  : 
+        :param images: Image importé 
+        :param position : Tuple (X,Y) pour la position souhaité dans l'image
+        :param text : String qui contient le texte que l'utilisateur veut écrire
+
+        Retourne :
+        La fonction retourne l'image avec le texte
+    """
     try:
         # Récupère la taille de l'image sous forme de tuple (largeur, hauteur)
         size = images.size 
@@ -70,7 +127,7 @@ def apply_writing_filter(images, position, text):
             return 
         
         # Charge la police d'écriture (Arial, taille 60)
-        font = ImageFont.truetype("arial.ttf", 60) 
+        font = ImageFont.truetype("Arial", 60) 
         # Crée un objet de dessin pour l'image
         draw = ImageDraw.Draw(images)
         # Ajoute le texte à la position spécifiée avec la couleur noire
@@ -149,7 +206,7 @@ def apply_filter_images(liste_images, nom_effect, param):
     try:
         # Boucle à travers les images pour appliquer le filtre spécifié
         for img in liste_images:
-            if nom_effect == "grey" or nom_effect == "aquarell":
+            if nom_effect == "grey" or nom_effect == "aquarell" or nom_effect == "dilate":
                 # Applique le filtre avec l'image en parametre
                 img_filter = dico[nom_effect](img[1])
             elif nom_effect == "text":
@@ -157,7 +214,7 @@ def apply_filter_images(liste_images, nom_effect, param):
                 img_filter = dico[nom_effect](img[1], (int(param[0]), int(param[1])), param[2])
             else:
                 # Applique les autres filtres avec un paramètre (ici il est de 50)
-                img_filter = dico[nom_effect](img[1], 50)
+                img_filter = dico[nom_effect](img[1], param)
 
             # Ajoute l'image modifiée à la liste
             list_img_modified.append((img[0], img_filter))

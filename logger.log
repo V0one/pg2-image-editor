@@ -1476,3 +1476,730 @@
 [2024-12-12 20:47:48] resize à été applique à toute les images
 [2024-12-12 20:47:49] L'image à bien été redimensionnée
 [2024-12-12 20:47:49] resize à été applique à toute les images
+[2024-12-12 22:24:39] Application des filtres : dilate&grey&resize:9
+[2024-12-12 22:24:39] Dossier source : img/default/
+[2024-12-12 22:24:39] Dossier destination : img/modified
+[2024-12-12 22:24:39] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:24:40] L'image a bien été dilatée
+[2024-12-12 22:24:40] dilate a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été dilatée
+[2024-12-12 22:24:40] dilate a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été dilatée
+[2024-12-12 22:24:40] dilate a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été dilatée
+[2024-12-12 22:24:40] dilate a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:24:40] grey a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:24:40] grey a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:24:40] grey a été appliqué à toutes les images
+[2024-12-12 22:24:40] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:24:40] grey a été appliqué à toutes les images
+[2024-12-12 22:24:41] L'image à bien été redimensionnée
+[2024-12-12 22:24:41] resize a été appliqué à toutes les images
+[2024-12-12 22:24:41] L'image à bien été redimensionnée
+[2024-12-12 22:24:41] resize a été appliqué à toutes les images
+[2024-12-12 22:24:42] L'image à bien été redimensionnée
+[2024-12-12 22:24:42] resize a été appliqué à toutes les images
+[2024-12-12 22:24:42] L'image à bien été redimensionnée
+[2024-12-12 22:24:42] resize a été appliqué à toutes les images
+[2024-12-12 22:25:18] Application des filtres : dilate&grey&resize:9
+[2024-12-12 22:25:18] Dossier source : img/default/
+[2024-12-12 22:25:18] Dossier destination : img/modified/
+[2024-12-12 22:25:18] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:25:19] L'image a bien été dilatée
+[2024-12-12 22:25:19] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été dilatée
+[2024-12-12 22:25:19] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été dilatée
+[2024-12-12 22:25:19] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été dilatée
+[2024-12-12 22:25:19] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:19] grey a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:19] grey a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:19] grey a été appliqué à toutes les images
+[2024-12-12 22:25:19] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:19] grey a été appliqué à toutes les images
+[2024-12-12 22:25:20] L'image à bien été redimensionnée
+[2024-12-12 22:25:20] resize a été appliqué à toutes les images
+[2024-12-12 22:25:20] L'image à bien été redimensionnée
+[2024-12-12 22:25:20] resize a été appliqué à toutes les images
+[2024-12-12 22:25:21] L'image à bien été redimensionnée
+[2024-12-12 22:25:21] resize a été appliqué à toutes les images
+[2024-12-12 22:25:21] L'image à bien été redimensionnée
+[2024-12-12 22:25:21] resize a été appliqué à toutes les images
+[2024-12-12 22:25:45] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:25:45] Dossier source : img/default/
+[2024-12-12 22:25:45] Dossier destination : img/modified/
+[2024-12-12 22:25:45] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:25:46] L'image a bien été dilatée
+[2024-12-12 22:25:46] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été dilatée
+[2024-12-12 22:25:46] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été dilatée
+[2024-12-12 22:25:46] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été dilatée
+[2024-12-12 22:25:46] dilate a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:46] grey a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:46] grey a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:46] grey a été appliqué à toutes les images
+[2024-12-12 22:25:46] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:25:46] grey a été appliqué à toutes les images
+[2024-12-12 22:25:46] Il ya une erreur lors du process d'image : invalid literal for int() with base 10: '1.5', veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs
+[2024-12-12 22:27:22] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:27:22] Dossier source : img/default/
+[2024-12-12 22:27:22] Dossier destination : img/modified/
+[2024-12-12 22:27:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:27:22] L'image a bien été dilatée
+[2024-12-12 22:27:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:27:22] L'image a bien été dilatée
+[2024-12-12 22:27:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été dilatée
+[2024-12-12 22:27:23] dilate a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été dilatée
+[2024-12-12 22:27:23] dilate a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:27:23] grey a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:27:23] grey a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:27:23] grey a été appliqué à toutes les images
+[2024-12-12 22:27:23] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:27:23] grey a été appliqué à toutes les images
+[2024-12-12 22:27:23] Il ya une erreur lors du process d'image : invalid literal for int() with base 10: '1.5', veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs
+[2024-12-12 22:34:04] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:34:04] Dossier source : img/default/
+[2024-12-12 22:34:04] Dossier destination : img/modified/
+[2024-12-12 22:34:04] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:34:05] L'image a bien été dilatée
+[2024-12-12 22:34:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été dilatée
+[2024-12-12 22:34:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été dilatée
+[2024-12-12 22:34:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été dilatée
+[2024-12-12 22:34:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:05] grey a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:05] grey a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:05] grey a été appliqué à toutes les images
+[2024-12-12 22:34:05] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:05] grey a été appliqué à toutes les images
+[2024-12-12 22:34:05] Il ya une erreur lors du process d'image : invalid literal for int() with base 10: '1.5', veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs
+[2024-12-12 22:34:23] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:34:23] Dossier source : img/default/
+[2024-12-12 22:34:23] Dossier destination : img/modified/
+[2024-12-12 22:34:23] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:34:24] L'image a bien été dilatée
+[2024-12-12 22:34:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été dilatée
+[2024-12-12 22:34:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été dilatée
+[2024-12-12 22:34:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été dilatée
+[2024-12-12 22:34:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:24] grey a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:24] grey a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:24] grey a été appliqué à toutes les images
+[2024-12-12 22:34:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:34:24] grey a été appliqué à toutes les images
+[2024-12-12 22:34:24] Il ya une erreur lors du process d'image : invalid literal for int() with base 10: '1.5', veuillez vérifiez le dossier ainsi que les filtre remplis et leurs valeurs
+[2024-12-12 22:36:08] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:36:08] Dossier source : img/default/
+[2024-12-12 22:36:08] Dossier destination : img/modified/
+[2024-12-12 22:36:08] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:36:09] L'image a bien été dilatée
+[2024-12-12 22:36:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été dilatée
+[2024-12-12 22:36:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été dilatée
+[2024-12-12 22:36:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été dilatée
+[2024-12-12 22:36:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:36:09] grey a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:36:09] grey a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:36:09] grey a été appliqué à toutes les images
+[2024-12-12 22:36:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:36:09] grey a été appliqué à toutes les images
+[2024-12-12 22:36:09] Erreur lors de l'application du filtre de redimention : must be real number, not str
+[2024-12-12 22:36:09] resize a été appliqué à toutes les images
+[2024-12-12 22:36:09] Erreur lors de l'application du filtre de redimention : must be real number, not str
+[2024-12-12 22:36:09] resize a été appliqué à toutes les images
+[2024-12-12 22:36:09] Erreur lors de l'application du filtre de redimention : must be real number, not str
+[2024-12-12 22:36:09] resize a été appliqué à toutes les images
+[2024-12-12 22:36:09] Erreur lors de l'application du filtre de redimention : must be real number, not str
+[2024-12-12 22:36:09] resize a été appliqué à toutes les images
+[2024-12-12 22:36:09] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:37:33] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:37:33] Dossier source : img/default/
+[2024-12-12 22:37:33] Dossier destination : img/modified/
+[2024-12-12 22:37:33] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:37:34] L'image a bien été dilatée
+[2024-12-12 22:37:34] dilate a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été dilatée
+[2024-12-12 22:37:34] dilate a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été dilatée
+[2024-12-12 22:37:34] dilate a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été dilatée
+[2024-12-12 22:37:34] dilate a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:37:34] grey a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:37:34] grey a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:37:34] grey a été appliqué à toutes les images
+[2024-12-12 22:37:34] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:37:34] grey a été appliqué à toutes les images
+[2024-12-12 22:37:34] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:37:34] resize a été appliqué à toutes les images
+[2024-12-12 22:37:34] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:37:34] resize a été appliqué à toutes les images
+[2024-12-12 22:37:34] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:37:34] resize a été appliqué à toutes les images
+[2024-12-12 22:37:34] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:37:34] resize a été appliqué à toutes les images
+[2024-12-12 22:37:34] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:38:21] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:38:21] Dossier source : img/default/
+[2024-12-12 22:38:21] Dossier destination : img/modified/
+[2024-12-12 22:38:21] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:38:22] L'image a bien été dilatée
+[2024-12-12 22:38:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été dilatée
+[2024-12-12 22:38:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été dilatée
+[2024-12-12 22:38:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été dilatée
+[2024-12-12 22:38:22] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:22] grey a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:22] grey a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:22] grey a été appliqué à toutes les images
+[2024-12-12 22:38:22] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:22] grey a été appliqué à toutes les images
+[2024-12-12 22:38:22] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:22] resize a été appliqué à toutes les images
+[2024-12-12 22:38:22] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:22] resize a été appliqué à toutes les images
+[2024-12-12 22:38:22] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:22] resize a été appliqué à toutes les images
+[2024-12-12 22:38:22] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:22] resize a été appliqué à toutes les images
+[2024-12-12 22:38:22] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:38:36] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:38:36] Dossier source : img/default/
+[2024-12-12 22:38:36] Dossier destination : img/modified/
+[2024-12-12 22:38:36] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:38:37] L'image a bien été dilatée
+[2024-12-12 22:38:37] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été dilatée
+[2024-12-12 22:38:37] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été dilatée
+[2024-12-12 22:38:37] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été dilatée
+[2024-12-12 22:38:37] dilate a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:37] grey a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:37] grey a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:37] grey a été appliqué à toutes les images
+[2024-12-12 22:38:37] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:38:37] grey a été appliqué à toutes les images
+[2024-12-12 22:38:37] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:37] resize a été appliqué à toutes les images
+[2024-12-12 22:38:37] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:37] resize a été appliqué à toutes les images
+[2024-12-12 22:38:37] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:37] resize a été appliqué à toutes les images
+[2024-12-12 22:38:37] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:38:37] resize a été appliqué à toutes les images
+[2024-12-12 22:38:37] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:39:11] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:39:11] Dossier source : img/default/
+[2024-12-12 22:39:11] Dossier destination : img/modified/
+[2024-12-12 22:39:11] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:39:12] L'image a bien été dilatée
+[2024-12-12 22:39:12] dilate a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été dilatée
+[2024-12-12 22:39:12] dilate a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été dilatée
+[2024-12-12 22:39:12] dilate a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été dilatée
+[2024-12-12 22:39:12] dilate a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:39:12] grey a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:39:12] grey a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:39:12] grey a été appliqué à toutes les images
+[2024-12-12 22:39:12] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:39:12] grey a été appliqué à toutes les images
+[2024-12-12 22:39:12] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:39:12] resize a été appliqué à toutes les images
+[2024-12-12 22:39:12] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:39:12] resize a été appliqué à toutes les images
+[2024-12-12 22:39:12] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:39:12] resize a été appliqué à toutes les images
+[2024-12-12 22:39:12] Erreur lors de l'application du filtre de redimention : must be real number, not tuple
+[2024-12-12 22:39:12] resize a été appliqué à toutes les images
+[2024-12-12 22:39:12] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:40:02] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:40:02] Dossier source : img/default/
+[2024-12-12 22:40:02] Dossier destination : img/modified/
+[2024-12-12 22:40:02] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:40:03] L'image a bien été dilatée
+[2024-12-12 22:40:03] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été dilatée
+[2024-12-12 22:40:03] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été dilatée
+[2024-12-12 22:40:03] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été dilatée
+[2024-12-12 22:40:03] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:03] grey a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:03] grey a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:03] grey a été appliqué à toutes les images
+[2024-12-12 22:40:03] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:03] grey a été appliqué à toutes les images
+[2024-12-12 22:40:03] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (3375). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:03] resize a été appliqué à toutes les images
+[2024-12-12 22:40:03] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1116). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:03] resize a été appliqué à toutes les images
+[2024-12-12 22:40:03] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1536). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:03] resize a été appliqué à toutes les images
+[2024-12-12 22:40:03] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (598). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:03] resize a été appliqué à toutes les images
+[2024-12-12 22:40:03] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:40:28] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:40:28] Dossier source : img/default/
+[2024-12-12 22:40:28] Dossier destination : img/modified/
+[2024-12-12 22:40:28] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:40:29] L'image a bien été dilatée
+[2024-12-12 22:40:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été dilatée
+[2024-12-12 22:40:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été dilatée
+[2024-12-12 22:40:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été dilatée
+[2024-12-12 22:40:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:29] grey a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:29] grey a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:29] grey a été appliqué à toutes les images
+[2024-12-12 22:40:29] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:40:29] grey a été appliqué à toutes les images
+[2024-12-12 22:40:29] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (4500). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:29] resize a été appliqué à toutes les images
+[2024-12-12 22:40:29] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1488). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:29] resize a été appliqué à toutes les images
+[2024-12-12 22:40:29] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (2048). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:29] resize a été appliqué à toutes les images
+[2024-12-12 22:40:29] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (798). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:40:29] resize a été appliqué à toutes les images
+[2024-12-12 22:40:29] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:41:44] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:41:44] Dossier source : img/default/
+[2024-12-12 22:41:44] Dossier destination : img/modified/
+[2024-12-12 22:41:44] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:41:45] L'image a bien été dilatée
+[2024-12-12 22:41:45] dilate a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été dilatée
+[2024-12-12 22:41:45] dilate a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été dilatée
+[2024-12-12 22:41:45] dilate a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été dilatée
+[2024-12-12 22:41:45] dilate a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:41:45] grey a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:41:45] grey a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:41:45] grey a été appliqué à toutes les images
+[2024-12-12 22:41:45] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:41:45] grey a été appliqué à toutes les images
+[2024-12-12 22:41:45] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (4500.0). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:41:45] resize a été appliqué à toutes les images
+[2024-12-12 22:41:45] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1488.0). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:41:45] resize a été appliqué à toutes les images
+[2024-12-12 22:41:45] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (2048.0). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:41:45] resize a été appliqué à toutes les images
+[2024-12-12 22:41:45] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (798.0). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:41:45] resize a été appliqué à toutes les images
+[2024-12-12 22:41:45] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:42:08] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:42:08] Dossier source : img/default/
+[2024-12-12 22:42:08] Dossier destination : img/modified/
+[2024-12-12 22:42:08] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:42:09] L'image a bien été dilatée
+[2024-12-12 22:42:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été dilatée
+[2024-12-12 22:42:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été dilatée
+[2024-12-12 22:42:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été dilatée
+[2024-12-12 22:42:09] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:09] grey a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:09] grey a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:09] grey a été appliqué à toutes les images
+[2024-12-12 22:42:09] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:09] grey a été appliqué à toutes les images
+[2024-12-12 22:42:09] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (4500). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:09] resize a été appliqué à toutes les images
+[2024-12-12 22:42:09] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1488). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:09] resize a été appliqué à toutes les images
+[2024-12-12 22:42:09] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (2048). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:09] resize a été appliqué à toutes les images
+[2024-12-12 22:42:09] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (798). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:09] resize a été appliqué à toutes les images
+[2024-12-12 22:42:09] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:42:23] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:42:23] Dossier source : img/default/
+[2024-12-12 22:42:23] Dossier destination : img/modified/
+[2024-12-12 22:42:23] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:42:23] L'image a bien été dilatée
+[2024-12-12 22:42:23] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:23] L'image a bien été dilatée
+[2024-12-12 22:42:23] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été dilatée
+[2024-12-12 22:42:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été dilatée
+[2024-12-12 22:42:24] dilate a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:24] grey a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:24] grey a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:24] grey a été appliqué à toutes les images
+[2024-12-12 22:42:24] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:42:24] grey a été appliqué à toutes les images
+[2024-12-12 22:42:24] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (4500). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:24] resize a été appliqué à toutes les images
+[2024-12-12 22:42:24] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (1488). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:24] resize a été appliqué à toutes les images
+[2024-12-12 22:42:24] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (2048). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:24] resize a été appliqué à toutes les images
+[2024-12-12 22:42:24] Erreur lors de l'application du filtre de redimention : Unknown resampling filter (798). Use Image.Resampling.NEAREST (0), Image.Resampling.LANCZOS (1), Image.Resampling.BILINEAR (2), Image.Resampling.BICUBIC (3), Image.Resampling.BOX (4) or Image.Resampling.HAMMING (5)
+[2024-12-12 22:42:24] resize a été appliqué à toutes les images
+[2024-12-12 22:42:24] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:44:05] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:44:05] Dossier source : img/default/
+[2024-12-12 22:44:05] Dossier destination : img/modified/
+[2024-12-12 22:44:05] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:44:05] L'image a bien été dilatée
+[2024-12-12 22:44:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:05] L'image a bien été dilatée
+[2024-12-12 22:44:05] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été dilatée
+[2024-12-12 22:44:06] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été dilatée
+[2024-12-12 22:44:06] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:06] grey a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:06] grey a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:06] grey a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:06] grey a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image à bien été redimensionnée
+[2024-12-12 22:44:06] resize a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image à bien été redimensionnée
+[2024-12-12 22:44:06] resize a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image à bien été redimensionnée
+[2024-12-12 22:44:06] resize a été appliqué à toutes les images
+[2024-12-12 22:44:06] L'image à bien été redimensionnée
+[2024-12-12 22:44:06] resize a été appliqué à toutes les images
+[2024-12-12 22:44:15] Application des filtres : dilate&grey&resize:2
+[2024-12-12 22:44:15] Dossier source : img/default/
+[2024-12-12 22:44:15] Dossier destination : img/modified/
+[2024-12-12 22:44:15] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:44:15] L'image a bien été dilatée
+[2024-12-12 22:44:15] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:15] L'image a bien été dilatée
+[2024-12-12 22:44:15] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été dilatée
+[2024-12-12 22:44:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été dilatée
+[2024-12-12 22:44:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:16] grey a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:16] grey a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:16] grey a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:16] grey a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image à bien été redimensionnée
+[2024-12-12 22:44:16] resize a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image à bien été redimensionnée
+[2024-12-12 22:44:16] resize a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image à bien été redimensionnée
+[2024-12-12 22:44:16] resize a été appliqué à toutes les images
+[2024-12-12 22:44:16] L'image à bien été redimensionnée
+[2024-12-12 22:44:16] resize a été appliqué à toutes les images
+[2024-12-12 22:44:20] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:44:20] Dossier source : img/default/
+[2024-12-12 22:44:20] Dossier destination : img/modified/
+[2024-12-12 22:44:20] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:44:21] L'image a bien été dilatée
+[2024-12-12 22:44:21] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été dilatée
+[2024-12-12 22:44:21] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été dilatée
+[2024-12-12 22:44:21] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été dilatée
+[2024-12-12 22:44:21] dilate a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:21] grey a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:21] grey a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:21] grey a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:44:21] grey a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image à bien été redimensionnée
+[2024-12-12 22:44:21] resize a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image à bien été redimensionnée
+[2024-12-12 22:44:21] resize a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image à bien été redimensionnée
+[2024-12-12 22:44:21] resize a été appliqué à toutes les images
+[2024-12-12 22:44:21] L'image à bien été redimensionnée
+[2024-12-12 22:44:21] resize a été appliqué à toutes les images
+[2024-12-12 22:45:29] Application des filtres : dilate&grey&resize:1.5
+[2024-12-12 22:45:29] Dossier source : img/default/
+[2024-12-12 22:45:29] Dossier destination : img/modified/
+[2024-12-12 22:45:29] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:45:29] L'image a bien été dilatée
+[2024-12-12 22:45:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:45:29] L'image a bien été dilatée
+[2024-12-12 22:45:29] dilate a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été dilatée
+[2024-12-12 22:45:30] dilate a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été dilatée
+[2024-12-12 22:45:30] dilate a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:45:30] grey a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:45:30] grey a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:45:30] grey a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:45:30] grey a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image à bien été redimensionnée
+[2024-12-12 22:45:30] resize a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image à bien été redimensionnée
+[2024-12-12 22:45:30] resize a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image à bien été redimensionnée
+[2024-12-12 22:45:30] resize a été appliqué à toutes les images
+[2024-12-12 22:45:30] L'image à bien été redimensionnée
+[2024-12-12 22:45:30] resize a été appliqué à toutes les images
+[2024-12-12 22:48:46] Application des filtres : dilate&grey&resize:1.5&rotate:34.5
+[2024-12-12 22:48:46] Dossier source : img/default/
+[2024-12-12 22:48:46] Dossier destination : img/modified/
+[2024-12-12 22:48:46] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:48:47] L'image a bien été dilatée
+[2024-12-12 22:48:47] dilate a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été dilatée
+[2024-12-12 22:48:47] dilate a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été dilatée
+[2024-12-12 22:48:47] dilate a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été dilatée
+[2024-12-12 22:48:47] dilate a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:48:47] grey a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:48:47] grey a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:48:47] grey a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:48:47] grey a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image à bien été redimensionnée
+[2024-12-12 22:48:47] resize a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image à bien été redimensionnée
+[2024-12-12 22:48:47] resize a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image à bien été redimensionnée
+[2024-12-12 22:48:47] resize a été appliqué à toutes les images
+[2024-12-12 22:48:47] L'image à bien été redimensionnée
+[2024-12-12 22:48:47] resize a été appliqué à toutes les images
+[2024-12-12 22:48:47] Image pivotée et sauvegardée
+[2024-12-12 22:48:47] rotate a été appliqué à toutes les images
+[2024-12-12 22:48:47] Image pivotée et sauvegardée
+[2024-12-12 22:48:47] rotate a été appliqué à toutes les images
+[2024-12-12 22:48:47] Image pivotée et sauvegardée
+[2024-12-12 22:48:47] rotate a été appliqué à toutes les images
+[2024-12-12 22:48:47] Image pivotée et sauvegardée
+[2024-12-12 22:48:47] rotate a été appliqué à toutes les images
+[2024-12-12 22:50:15] Application des filtres : dilate&grey&resize:1.5&rotate:34.5&blur:34.5&aquarell&text:90:90:Apagnan
+[2024-12-12 22:50:15] Dossier source : img/default/
+[2024-12-12 22:50:15] Dossier destination : img/modified/
+[2024-12-12 22:50:15] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:50:16] L'image a bien été dilatée
+[2024-12-12 22:50:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été dilatée
+[2024-12-12 22:50:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été dilatée
+[2024-12-12 22:50:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été dilatée
+[2024-12-12 22:50:16] dilate a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:50:16] grey a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:50:16] grey a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:50:16] grey a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:50:16] grey a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été redimensionnée
+[2024-12-12 22:50:16] resize a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été redimensionnée
+[2024-12-12 22:50:16] resize a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été redimensionnée
+[2024-12-12 22:50:16] resize a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été redimensionnée
+[2024-12-12 22:50:16] resize a été appliqué à toutes les images
+[2024-12-12 22:50:16] Image pivotée et sauvegardée
+[2024-12-12 22:50:16] rotate a été appliqué à toutes les images
+[2024-12-12 22:50:16] Image pivotée et sauvegardée
+[2024-12-12 22:50:16] rotate a été appliqué à toutes les images
+[2024-12-12 22:50:16] Image pivotée et sauvegardée
+[2024-12-12 22:50:16] rotate a été appliqué à toutes les images
+[2024-12-12 22:50:16] Image pivotée et sauvegardée
+[2024-12-12 22:50:16] rotate a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été  flouté
+[2024-12-12 22:50:16] blur a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été  flouté
+[2024-12-12 22:50:16] blur a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été  flouté
+[2024-12-12 22:50:16] blur a été appliqué à toutes les images
+[2024-12-12 22:50:16] L'image à bien été  flouté
+[2024-12-12 22:50:16] blur a été appliqué à toutes les images
+[2024-12-12 22:50:16] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:50:16] aquarell a été appliqué à toutes les images
+[2024-12-12 22:50:17] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:50:17] aquarell a été appliqué à toutes les images
+[2024-12-12 22:50:17] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:50:17] aquarell a été appliqué à toutes les images
+[2024-12-12 22:50:17] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:50:17] aquarell a été appliqué à toutes les images
+[2024-12-12 22:50:17] Erreur lors de l'application du filtre d'écriture : cannot open resource
+[2024-12-12 22:50:17] text a été appliqué à toutes les images
+[2024-12-12 22:50:17] Erreur lors de l'application du filtre d'écriture : cannot open resource
+[2024-12-12 22:50:17] text a été appliqué à toutes les images
+[2024-12-12 22:50:17] Erreur lors de l'application du filtre d'écriture : cannot open resource
+[2024-12-12 22:50:17] text a été appliqué à toutes les images
+[2024-12-12 22:50:17] Erreur lors de l'application du filtre d'écriture : cannot open resource
+[2024-12-12 22:50:17] text a été appliqué à toutes les images
+[2024-12-12 22:50:17] Il y a eu un probleme lors du process d'image : 'NoneType' object has no attribute 'save'
+[2024-12-12 22:51:12] Application des filtres : dilate&grey&resize:1.5&rotate:34.5&blur:34.5&aquarell&text:90:90:Apagnan
+[2024-12-12 22:51:12] Dossier source : img/default/
+[2024-12-12 22:51:12] Dossier destination : img/modified/
+[2024-12-12 22:51:12] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:51:13] L'image a bien été dilatée
+[2024-12-12 22:51:13] dilate a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été dilatée
+[2024-12-12 22:51:13] dilate a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été dilatée
+[2024-12-12 22:51:13] dilate a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été dilatée
+[2024-12-12 22:51:13] dilate a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:51:13] grey a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:51:13] grey a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:51:13] grey a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:51:13] grey a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été redimensionnée
+[2024-12-12 22:51:13] resize a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été redimensionnée
+[2024-12-12 22:51:13] resize a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été redimensionnée
+[2024-12-12 22:51:13] resize a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été redimensionnée
+[2024-12-12 22:51:13] resize a été appliqué à toutes les images
+[2024-12-12 22:51:13] Image pivotée et sauvegardée
+[2024-12-12 22:51:13] rotate a été appliqué à toutes les images
+[2024-12-12 22:51:13] Image pivotée et sauvegardée
+[2024-12-12 22:51:13] rotate a été appliqué à toutes les images
+[2024-12-12 22:51:13] Image pivotée et sauvegardée
+[2024-12-12 22:51:13] rotate a été appliqué à toutes les images
+[2024-12-12 22:51:13] Image pivotée et sauvegardée
+[2024-12-12 22:51:13] rotate a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été  flouté
+[2024-12-12 22:51:13] blur a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été  flouté
+[2024-12-12 22:51:13] blur a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été  flouté
+[2024-12-12 22:51:13] blur a été appliqué à toutes les images
+[2024-12-12 22:51:13] L'image à bien été  flouté
+[2024-12-12 22:51:13] blur a été appliqué à toutes les images
+[2024-12-12 22:51:13] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:51:13] aquarell a été appliqué à toutes les images
+[2024-12-12 22:51:13] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:51:13] aquarell a été appliqué à toutes les images
+[2024-12-12 22:51:14] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:51:14] aquarell a été appliqué à toutes les images
+[2024-12-12 22:51:14] Effet aquarelle appliqué et sauvegardé
+[2024-12-12 22:51:14] aquarell a été appliqué à toutes les images
+[2024-12-12 22:51:14] Le texte a bien été placé sur l'image
+[2024-12-12 22:51:14] text a été appliqué à toutes les images
+[2024-12-12 22:51:14] Le texte a bien été placé sur l'image
+[2024-12-12 22:51:14] text a été appliqué à toutes les images
+[2024-12-12 22:51:14] Le texte a bien été placé sur l'image
+[2024-12-12 22:51:14] text a été appliqué à toutes les images
+[2024-12-12 22:51:14] Le texte a bien été placé sur l'image
+[2024-12-12 22:51:14] text a été appliqué à toutes les images
+[2024-12-12 22:53:58] Application des filtres : dilate&grey&resize:0.5
+[2024-12-12 22:53:58] Dossier source : img/default/
+[2024-12-12 22:53:58] Dossier destination : img/modified/
+[2024-12-12 22:53:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 22:53:59] L'image a bien été dilatée
+[2024-12-12 22:53:59] dilate a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été dilatée
+[2024-12-12 22:53:59] dilate a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été dilatée
+[2024-12-12 22:53:59] dilate a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été dilatée
+[2024-12-12 22:53:59] dilate a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:53:59] grey a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:53:59] grey a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:53:59] grey a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image a bien été convertie en noir et blanc
+[2024-12-12 22:53:59] grey a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image à bien été redimensionnée
+[2024-12-12 22:53:59] resize a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image à bien été redimensionnée
+[2024-12-12 22:53:59] resize a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image à bien été redimensionnée
+[2024-12-12 22:53:59] resize a été appliqué à toutes les images
+[2024-12-12 22:53:59] L'image à bien été redimensionnée
+[2024-12-12 22:53:59] resize a été appliqué à toutes les images

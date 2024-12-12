@@ -99,7 +99,7 @@ def processing(input_folder, output_folder, filter) :
                     tableau_img = apply_filter_images(tableau_img, tableau_filtre_et_param[0],[tableau_filtre_et_param[1],tableau_filtre_et_param[2],tableau_filtre_et_param[3]])
                 else :
                     # Appliquer le filtre avec un paramètre entier
-                    tableau_img = apply_filter_images(tableau_img,tableau_filtre_et_param[0],int(tableau_filtre_et_param[1]))
+                    tableau_img = apply_filter_images(tableau_img,tableau_filtre_et_param[0],float(tableau_filtre_et_param[1]))
             else :
                 # Filtre sans paramètre
                 tableau_img = apply_filter_images(tableau_img, filtre, None)
