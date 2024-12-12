@@ -1,147 +1,235 @@
 from PIL import Image, ImageFilter, ImageDraw, ImageFont, ImageEnhance, ImageOps
 from logger import *
 from Importation import *
-
-input_folder = "img/default"  # Dossier contenant les images
+import math
+input_folder = "img/default/"  # Dossier contenant les images
 output_folder = "img/modified"  # Dossier pour sauvegarder les images modifiés 
 
+#Fonction qui applique un filtre de flou gaussien à une image.
 def blur (image,n) :
+    """
+        Cette fonction permet de rendre une image flou en fonction du niveau de flou n
+
+        Argument : 
+        :param image : Image importé 
+        :param n : facteur du niveau de flou 
+
+        Retourne :
+        La fonction retourne l'image modifié
+    
+    """
     try :
+        # Applique le filtre de flou gaussien à l'image avec une intensité n.
         blured_img = image.filter(ImageFilter.GaussianBlur(n))
         log(f"L'image à bien été  flouté")
         return blured_img
     except Exception as e :
+        # Log l'erreur en cas d'échec de l'application du filtre.
         log (f"Erreur lors de l'application du filtre flou {e}")
         print(f"Erreur lors de l'application du filtre flou {e}")
 
-def grey (image) :
-    try : 
-        image_gray = image.convert("L")
-        log(f"L'image à bien été convertie en noir et blanc")
-        return image_gray
-    except Exception as e :
-        log(f"Erreur lors de l'application du filtre noir et blanc {e}")
-        print(f"Erreur lors de l'application du filtre noir et blanc {e}")
+#Fonction qui convertie une image en noir et blanc
+def grey(image):
+    """
+        Cette fonction permet de convertir une image en noir et blanc 
 
-def dilated (image , n) :
-    try : 
-        image_dilated = image.filter(ImageFilter.MaxFilter(n))
-        log(f"L'image à bien été  dilaté")
-        return image_dilated
-    except Exception as e : 
-        log(f"Erreur lors de l'applicaion du filtre dilatation {e}")
-        print(f"Erreur lors de l'applicaion du filtre dilatation {e}")
+        Argument : 
+        :param image : Image importé 
 
-def apply_dimensions_filter(images, scale):
+        Retourne :
+        La fonction retourne l'image convertie 
+    
+    """
     try:
+        #Convertie l'image en noir et blanc
+        image_gray = image.convert("L")
+        log(f"L'image a bien été convertie en noir et blanc")
+
+        # Retourne l'image convertie.
+        return image_gray
+    except Exception as e:
+        # Log l'erreur en cas d'échec de l'application du filtre.
+        log(f"Erreur lors de l'application du filtre noir et blanc : {e}")
+        print(f"Erreur lors de l'application du filtre noir et blanc : {e}")
+
+#Fonction qui applique il dilatation sur l'image
+def dilated(image):
+    """
+        Cette fonction permet de donnée un effet dilaté à une image 
+
+        Arguments : 
+
+        :param image : Image importé 
+
+        Retourne : 
+        La fonction retoure l'image convertie 
+
+    """
+    try:
+        #Application de l'effet dilaté à l'image
+        image_dilated = image.filter(ImageFilter.MaxFilter(3))
+        log(f"L'image a bien été dilatée")
+        print(f"L'image à bien été dilaté")
+        # Retourne l'image dilatée.
+        return image_dilated
+    except Exception as e:
+        # Log l'erreur en cas d'échec de l'application du filtre.
+        log(f"Erreur lors de l'application du filtre dilatation : {e}")
+        print(f"Erreur lors de l'application du filtre dilatation : {e}")
+
+#Fonction qui redimensionne une image
+def apply_dimensions_filter(images, scale):
+    """
+        Cette fonction peremt d'agrandir une image en fonction d'un nombre qui va être multiplié par la longueur et largeur de l'image
+
+        Arguments : 
+        :param images : Image importé
+        :param scale : Entier qui sert a agrandir l'image
+
+        Retourne : 
+        La fonction retourne l'image redimensionnée 
+    """
+    try:
+        #Récupère la taille de l'image
         taille = images.size
-        img_resized = images.resize((taille[0] * scale,taille[1] * scale))  # Nouvelle taille (largeur, hauteur)
+        #Redimensionne l'image
+        img_resized = images.resize((math.floor(taille[0] * scale) ,math.floor(taille[1] * scale))) # Nouvelle taille (largeur * scale, hauteur *scale)
         log("L'image à bien été redimensionnée")
+        #retourne l'image redimensionnée
         return img_resized
     except Exception as e:
+        # Log l'erreur en cas d'échec de l'application du filtre.
         log(f"Erreur lors de l'application du filtre de redimention : {e}")
         print(f"Erreur lors de l'application du filtre de redimention : {e}")
 
+#Fonction qui permet d'écrire sur une image
 def apply_writing_filter(images, position, text):
+    """
+        Cette fonction permet d'écrire sur une image 
+
+        Arguments  : 
+        :param images: Image importé 
+        :param position : Tuple (X,Y) pour la position souhaité dans l'image
+        :param text : String qui contient le texte que l'utilisateur veut écrire
+
+        Retourne :
+        La fonction retourne l'image avec le texte
+    """
     try:
+        # Récupère la taille de l'image sous forme de tuple (largeur, hauteur)
         size = images.size 
-        if position[0] > size[0] or position[1] > size[1] or position[0] < 0 or position[1] < 0 :
+
+        # Vérifie si la position donnée est hors des limites de l'image
+        if position[0] > size[0] or position[1] > size[1] or position[0] < 0 or position[1] < 0:
+            # Affiche un message d'erreur si la position est invalide
             print(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             log(f"La position donnée est en dehors de l'image : Taille de l'image {size} et taille donnée {position}")
             return 
-        fonte = ImageFont.truetype("Avenir.ttc", size=40)
+        
+        # Charge la police d'écriture (Arial, taille 60)
+        font = ImageFont.truetype("Arial", 60) 
+        # Crée un objet de dessin pour l'image
         draw = ImageDraw.Draw(images)
-        draw.text((position[0], position[1]), text , fill="black", font=fonte)
-        log("Le texte à bien été placé sur l'image")
-        return draw
+        # Ajoute le texte à la position spécifiée avec la couleur noire
+        draw.text((position[0], position[1]), text, fill="black", font=font)
+        log("Le texte a bien été placé sur l'image")       
+        # Retourne l'image modifiée
+        return images
+
     except Exception as e:
-        log(f"Erreur lors de l'application du filtre de ecriture : {e}")
-        print(f"Erreur lors de l'application du filtre de ecriture : {e}")
+        # Log l'erreur en cas d'échec de l'application du filtre.
+        log(f"Erreur lors de l'application du filtre d'écriture : {e}")
+        print(f"Erreur lors de l'application du filtre d'écriture : {e}")
+
 
 def apply_custom_aquarelle_filter(image):
     """
-    Applique un effet aquarelle similaire à l'exemple fourni.
+    Applique un effet aquarelle à une image.
 
     :param image: Objet PIL.Image représentant l'image d'entrée.
-    :param output_path: Chemin de sauvegarde pour l'image modifiée.
-    :return: L'image modifiée.
+    :return: L'image modifiée avec un effet aquarelle.
     """
     try:
-
-        # Étape 1 : Adoucir l'image avec un flou gaussien
+        # Étape 1 : Adoucir l'image en appliquant un flou gaussien
         blurred = image.filter(ImageFilter.GaussianBlur(3))
 
-        #Étape 2 : Renforcer les contours pour imiter le dessin
+        # Étape 2 : Renforcer les contours de l'image pour imiter un dessin
         edges = image.filter(ImageFilter.CONTOUR)
 
-        #Étape 3 : Combiner les calques avec un effet d'opacité
+        # Étape 3 : Combiner les calques flou et contours avec un effet d'opacité
         combined = Image.blend(blurred, edges, 0.4)
-        #Sauvegarde de l'image modifiée
-        print(f"Effet aquarelle appliqué et sauvegardé : ")
-        log(f"Effet aquarelle appliqué et sauvegardé :")
+
+        print(f"Effet aquarelle appliqué et sauvegardé")
+        log(f"Effet aquarelle appliqué et sauvegardé")
         return combined
 
     except Exception as e:
-        print(f"Erreur lors de l'application du filtre aquarelle : {e}")       
+        # Log l'erreur en cas d'échec de l'application du filtre.
+        print(f"Erreur lors de l'application du filtre aquarelle : {e}")
+        log(f"Erreur lors de l'application du filtre aquarelle : {e}")
 
 def image_rotated(images, angle):
-    '''
-    Pivote les images selon l'angle saisi et les sauvegarde.
+    """
+    Pivote une image selon un angle donné.
 
     Args:
-        images (list): Liste de tuples (nom_fichier, PIL.Image.Image) représentant les images à pivoter.
-        output_folder (str): Chemin vers le dossier où sauvegarder les images pivoters.
+        images (PIL.Image.Image): L'image à pivoter.
         angle (float): Angle de rotation en degrés.
-    '''
+    :return: L'image pivotée.
+    """
     try:
+        # Étape 1 : Appliquer la rotation à l'image
+        rotated_img = images.rotate(angle, expand=True)
 
-        for img in images:
-            # Applique la rotation
-            rotated_img = img[1].rotate(angle, expand=True)
-            # Génère le chemin du fichier de sortie
-            # Sauvegarde l'image pivoter
-            print(f"Image pivoté et sauvegardé")
-            log (f"Image pivoté et sauvegardé ")
-            return rotated_img
+        print(f"Image pivotée et sauvegardée")
+        log(f"Image pivotée et sauvegardée")
+        return rotated_img
+
     except Exception as e:
+        # Log l'erreur en cas d'échec de l'application du filtre.
         print(f"Erreur lors de la rotation des images : {e}")
         log(f"Erreur lors de la rotation des images : {e}")
 
-
 def apply_filter_images(liste_images, nom_effect, param):
     """
-    Applique un filtre de flou aux images et les sauvegarde.
+    Applique un filtre spécifique à une liste d'images.
 
     Args:
-        images (list): Liste de tuples (nom_fichier, PIL.Image.Image) représentant les images à flouter.
-        output_folder (str): Chemin vers le dossier où sauvegarder les images floutées.
+        liste_images (list): Liste de tuples (nom_fichier, PIL.Image.Image) représentant les images.
+        nom_effect (str): Nom du filtre à appliquer (par exemple : "blur", "grey", "aquarell").
+        param (list): Paramètres nécessaires au filtre (par exemple : position, texte, etc.).
+    :return: Liste d'images modifiées sous forme de tuples (nom_fichier, image_modifiée).
     """
-
-    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotaded" : image_rotated }
+    # Dictionnaire avec les noms des filtres et à quoi il correspondent
+    dico = {"blur" : blur , "grey"  : grey , "dilate"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotate" : image_rotated , "text" : apply_writing_filter}
     list_img_modified = []
     try:
-        # Crée le dossier de sortie s'il n'existe pas
+        # Boucle à travers les images pour appliquer le filtre spécifié
         for img in liste_images:
-            if nom_effect == "grey" or nom_effect == "" :
+            if nom_effect == "grey" or nom_effect == "aquarell" or nom_effect == "dilate":
+                # Applique le filtre avec l'image en parametre
                 img_filter = dico[nom_effect](img[1])
-            else : 
-                img_filter = dico[nom_effect](img[1],param)
-            # Génère le chemin du fichier de sortie
-            output_path = "img/modified/" + img[0]
-            # Sauvegarde l'image floutée
-            list_img_modified.append(img_filter)
-            print(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
-            log(f"{nom_effect} à été applique à toute les images dans default : {output_path}")
-            return list_img_modified
+            elif nom_effect == "text":
+                # Applique le filtre texte en utilisant des paramètres spécifiques
+                img_filter = dico[nom_effect](img[1], (int(param[0]), int(param[1])), param[2])
+            else:
+                # Applique les autres filtres avec un paramètre (ici il est de 50)
+                img_filter = dico[nom_effect](img[1], param)
+
+            # Ajoute l'image modifiée à la liste
+            list_img_modified.append((img[0], img_filter))
+
+            print(f"{nom_effect.upper()} a été appliqué à toutes les images")
+            log(f"{nom_effect} a été appliqué à toutes les images")
+        
+        # Retourne la liste d'images modifiées
+        return list_img_modified
 
     except Exception as e:
+        # Log l'erreur en cas d'échec de l'application du filtre.
         log(f"Erreur lors de l'application du filtre : {e}")
         print(f"Erreur lors de l'application du filtre : {e}")
 
-
-liste_images = import_images_from_folder()
-
-img =  apply_dimensions_filter(liste_images[0][1],3)
 
 
 #apply_filter_images(liste_images,"grey", None)
