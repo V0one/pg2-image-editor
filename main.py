@@ -17,8 +17,8 @@ def main():
     if command == "--log":
         logs = read_logs()
         print("=== Logs ===")
-        for log in logs:
-            print(log.strip())
+        for log1 in logs:
+            print(log1.strip())
 
     elif command == "--help":
         print("=== HELP ===")
@@ -52,11 +52,7 @@ def main():
         log(f"Dossier source : {input_folder}")
         log(f"Dossier destination : {output_folder}")
 
-
-
-    
-
-        process_images_in_folder(input_folder, output_folder, filters)
+        processing(input_folder, output_folder, filters)
 
     else:
         print(f"Commande inconnue : {command}")
@@ -82,12 +78,11 @@ def processing(input_folder, output_folder, filter) :
         else :
             tableau_img = apply_filter_images(tableau_img, filtre, None)
     for image in tableau_img :
-        image[1].show()
         image[1].save(output_folder + "/" + image[0])
         
-processing(input_folder,output_folder,"grey&rotated:2")
 
-#if __name__ == "__main__":
-#    main()
+
+if __name__ == "__main__":
+    main()
 
 
