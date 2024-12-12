@@ -24,13 +24,14 @@ def main():
         print("=== HELP ===")
         print("Usage exemple :")
         print("  --filters \"gray&rotate:55\" --i <input_folder> --o <output_folder>")
+        print ("L'input_folder et l'output_folder doivent être écrit de la sorte dosier/ et apèrs le / il y a les images")
         print("Options :")
-        print("  gray        : Applique un filtre noir et blanc sur l'image")
-        print("  rotate: <deg>: Applique une rotation de <deg> degrés")
-        print("  dilate : <lvl> : Applique un effet de dilatation")
+        print("  grey        : Applique un filtre noir et blanc sur l'image prend pas de paramètre")
+        print("  rotate: <deg> : Applique une rotation de <deg> degrés")
+        print("  dilate : <lvl> : Applique un effet de dilatation <lvl>w")
         print("  blur <lvl>: Applique un effet de flou")
         print("  resize  <scaling> : Modifie la taille d'une image avec un scaling")
-        print("  write <position -> X:Y:text> : Permet d'écrire sur une image avec la position")
+        print("  write <X:Y:text> : Permet d'écrire sur une image avec la position en (X , Y)")
         print("  --log       : Affiche les logs de l'application")
         print("  --help      : Affiche ce message d'aide")
 
@@ -59,7 +60,6 @@ def main():
         print("Usage : python3 main.py [--log | --help | --filters]")
 
 
-liste_image = import_images_from_folder(input_folder)
 
 
 def processing(input_folder, output_folder, filter) :

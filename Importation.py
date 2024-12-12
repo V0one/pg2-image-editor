@@ -24,7 +24,7 @@ def import_images_from_folder(input_folder):
                 images.append((file_name, image))
             else:
                 print(f"Impossible de lire l'image : {file_name}")
-                log(f"Impossible de lire l'image : {file_name}")
+                log(f"Impossible de lire l'image : {file_name}") 
     
     print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
