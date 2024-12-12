@@ -115,7 +115,7 @@ def apply_filter_images(liste_images, nom_effect, param):
         output_folder (str): Chemin vers le dossier où sauvegarder les images floutées.
     """
 
-    dico = {"blur" : blur , "grey"  : grey , "dilated_img"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotated" : image_rotated , "text" : apply_writing_filter}
+    dico = {"blur" : blur , "grey"  : grey , "dilate"  : dilated, "aquarell" : apply_custom_aquarelle_filter, "resize" : apply_dimensions_filter, "rotate" : image_rotated , "text" : apply_writing_filter}
     list_img_modified = []
     try:
         # Crée le dossier de sortie s'il n'existe pas
