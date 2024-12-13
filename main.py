@@ -26,14 +26,14 @@ def main():
         print("  --filters \"gray&rotate:55\" --i <input_folder> --o <output_folder>")
         print ("L'input_folder et l'output_folder doivent être écrit de la sorte dosier/ et apèrs le / il y a les images")
         print("Options :")
-        print("  grey        : Applique un filtre noir et blanc sur l'image prend pas de paramètre")
-        print("  rotate: <deg> : Applique une rotation de <deg> degrés")
-        print("  dilate : <lvl> : Applique un effet de dilatation <lvl>w")
-        print("  blur <lvl>: Applique un effet de flou")
-        print("  resize  <scaling> : Modifie la taille d'une image avec un scaling")
-        print("  write <X:Y:text> : Permet d'écrire sur une image avec la position en (X , Y)")
-        print("  --log       : Affiche les logs de l'application")
-        print("  --help      : Affiche ce message d'aide")
+        print("  grey             : Applique un filtre noir et blanc sur l'image prend pas de paramètre")
+        print("  rotate:<deg>     : Applique une rotation de <deg> degrés")
+        print("  dilate:<lvl>     : Applique un effet de dilatation <lvl>w")
+        print("  blur:<lvl>       : Applique un effet de flou")
+        print("  resize:<scaling> : Modifie la taille d'une image avec un scaling")
+        print("  text:<X:Y:text> : Permet d'écrire sur une image avec la position en (X , Y)")
+        print("  --log            : Affiche les logs de l'application")
+        print("  --help           : Affiche ce message d'aide")
 
     elif command == "--filters":
         if len(sys.argv) < 6:

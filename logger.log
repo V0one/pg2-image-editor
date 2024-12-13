@@ -1099,3 +1099,181 @@
 [2024-12-12 18:07:33] grey à été applique à toute les images
 [2024-12-12 18:07:33] L'image à bien été convertie en noir et blanc
 [2024-12-12 18:07:33] grey à été applique à toute les images
+[2024-12-12 18:12:59] Application des filtres : grey&rotate:55
+[2024-12-12 18:12:59] Dossier source : img/default/
+[2024-12-12 18:12:59] Dossier destination : img/modified/
+[2024-12-12 18:12:59] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:12:59] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:12:59] grey à été applique à toute les images
+[2024-12-12 18:12:59] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:12:59] grey à été applique à toute les images
+[2024-12-12 18:12:59] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:12:59] grey à été applique à toute les images
+[2024-12-12 18:12:59] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:12:59] grey à été applique à toute les images
+[2024-12-12 18:12:59] Image pivoté et sauvegardé 
+[2024-12-12 18:12:59] rotate à été applique à toute les images
+[2024-12-12 18:12:59] Image pivoté et sauvegardé 
+[2024-12-12 18:12:59] rotate à été applique à toute les images
+[2024-12-12 18:12:59] Image pivoté et sauvegardé 
+[2024-12-12 18:12:59] rotate à été applique à toute les images
+[2024-12-12 18:12:59] Image pivoté et sauvegardé 
+[2024-12-12 18:12:59] rotate à été applique à toute les images
+[2024-12-12 18:14:10] Application des filtres : grey&resize1.5
+[2024-12-12 18:14:10] Dossier source : img/default/
+[2024-12-12 18:14:10] Dossier destination : img/modified/
+[2024-12-12 18:14:10] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:14:10] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:10] grey à été applique à toute les images
+[2024-12-12 18:14:10] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:10] grey à été applique à toute les images
+[2024-12-12 18:14:10] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:10] grey à été applique à toute les images
+[2024-12-12 18:14:10] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:10] grey à été applique à toute les images
+[2024-12-12 18:14:10] Erreur lors de l'application du filtre : 'resize1.5'
+[2024-12-12 18:14:27] Application des filtres : grey&resize:1.5
+[2024-12-12 18:14:27] Dossier source : img/default/
+[2024-12-12 18:14:27] Dossier destination : img/modified/
+[2024-12-12 18:14:27] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:14:27] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:27] grey à été applique à toute les images
+[2024-12-12 18:14:27] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:27] grey à été applique à toute les images
+[2024-12-12 18:14:27] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:27] grey à été applique à toute les images
+[2024-12-12 18:14:27] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:14:27] grey à été applique à toute les images
+[2024-12-12 18:16:06] Application des filtres : grey&blur:55
+[2024-12-12 18:16:06] Dossier source : img/default/
+[2024-12-12 18:16:06] Dossier destination : img/modified/
+[2024-12-12 18:16:06] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:16:06] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:06] grey à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:06] grey à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:06] grey à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:06] grey à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été  flouté
+[2024-12-12 18:16:06] blur à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été  flouté
+[2024-12-12 18:16:06] blur à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été  flouté
+[2024-12-12 18:16:06] blur à été applique à toute les images
+[2024-12-12 18:16:06] L'image à bien été  flouté
+[2024-12-12 18:16:06] blur à été applique à toute les images
+[2024-12-12 18:16:22] Application des filtres : grey&resize:5
+[2024-12-12 18:16:22] Dossier source : img/default/
+[2024-12-12 18:16:22] Dossier destination : img/modified/
+[2024-12-12 18:16:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:16:22] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:22] grey à été applique à toute les images
+[2024-12-12 18:16:22] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:22] grey à été applique à toute les images
+[2024-12-12 18:16:22] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:22] grey à été applique à toute les images
+[2024-12-12 18:16:22] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:16:22] grey à été applique à toute les images
+[2024-12-12 18:16:47] L'image à bien été redimensionnée
+[2024-12-12 18:16:47] resize à été applique à toute les images
+[2024-12-12 18:16:50] L'image à bien été redimensionnée
+[2024-12-12 18:16:50] resize à été applique à toute les images
+[2024-12-12 18:16:58] L'image à bien été redimensionnée
+[2024-12-12 18:16:58] resize à été applique à toute les images
+[2024-12-12 18:16:59] L'image à bien été redimensionnée
+[2024-12-12 18:16:59] resize à été applique à toute les images
+[2024-12-12 18:17:39] Application des filtres : grey&resize:5
+[2024-12-12 18:17:39] Dossier source : img/default/
+[2024-12-12 18:17:39] Dossier destination : img/modified/
+[2024-12-12 18:17:39] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:17:39] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:17:39] grey à été applique à toute les images
+[2024-12-12 18:17:40] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:17:40] grey à été applique à toute les images
+[2024-12-12 18:17:40] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:17:40] grey à été applique à toute les images
+[2024-12-12 18:17:40] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:17:40] grey à été applique à toute les images
+[2024-12-12 18:18:03] L'image à bien été redimensionnée
+[2024-12-12 18:18:03] resize à été applique à toute les images
+[2024-12-12 18:18:07] L'image à bien été redimensionnée
+[2024-12-12 18:18:07] resize à été applique à toute les images
+[2024-12-12 18:18:15] L'image à bien été redimensionnée
+[2024-12-12 18:18:15] resize à été applique à toute les images
+[2024-12-12 18:18:16] L'image à bien été redimensionnée
+[2024-12-12 18:18:16] resize à été applique à toute les images
+[2024-12-12 18:22:54] Application des filtres : grey&text:0:0Bonjour
+[2024-12-12 18:22:54] Dossier source : img/default/
+[2024-12-12 18:22:54] Dossier destination : img/modified/
+[2024-12-12 18:22:54] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:22:54] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:22:54] grey à été applique à toute les images
+[2024-12-12 18:22:54] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:22:54] grey à été applique à toute les images
+[2024-12-12 18:22:54] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:22:54] grey à été applique à toute les images
+[2024-12-12 18:22:54] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:22:54] grey à été applique à toute les images
+[2024-12-12 18:22:54] Erreur lors de l'application du filtre : 'int' object is not subscriptable
+[2024-12-12 18:23:18] Application des filtres : grey&text:0:0Bonjour
+[2024-12-12 18:23:18] Dossier source : img/default/
+[2024-12-12 18:23:18] Dossier destination : img/modified/
+[2024-12-12 18:23:18] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:23:18] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:18] grey à été applique à toute les images
+[2024-12-12 18:23:18] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:18] grey à été applique à toute les images
+[2024-12-12 18:23:18] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:18] grey à été applique à toute les images
+[2024-12-12 18:23:18] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:18] grey à été applique à toute les images
+[2024-12-12 18:23:18] Erreur lors de l'application du filtre : 'int' object is not subscriptable
+[2024-12-12 18:23:58] Application des filtres : grey&text:0:0:Bonjour
+[2024-12-12 18:23:58] Dossier source : img/default/
+[2024-12-12 18:23:58] Dossier destination : img/modified/
+[2024-12-12 18:23:58] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:23:58] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:58] grey à été applique à toute les images
+[2024-12-12 18:23:58] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:58] grey à été applique à toute les images
+[2024-12-12 18:23:58] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:58] grey à été applique à toute les images
+[2024-12-12 18:23:58] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:23:58] grey à été applique à toute les images
+[2024-12-12 18:23:58] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:23:58] text à été applique à toute les images
+[2024-12-12 18:23:58] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:23:58] text à été applique à toute les images
+[2024-12-12 18:23:58] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:23:58] text à été applique à toute les images
+[2024-12-12 18:23:58] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:23:58] text à été applique à toute les images
+[2024-12-12 18:24:22] Application des filtres : grey&text:0:0:Bonjour
+[2024-12-12 18:24:22] Dossier source : img/default/
+[2024-12-12 18:24:22] Dossier destination : img/modified/
+[2024-12-12 18:24:22] 4 images ont été importées depuis 'img/default'.
+[2024-12-12 18:24:23] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:24:23] grey à été applique à toute les images
+[2024-12-12 18:24:23] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:24:23] grey à été applique à toute les images
+[2024-12-12 18:24:23] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:24:23] grey à été applique à toute les images
+[2024-12-12 18:24:23] L'image à bien été convertie en noir et blanc
+[2024-12-12 18:24:23] grey à été applique à toute les images
+[2024-12-12 18:24:23] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:24:23] text à été applique à toute les images
+[2024-12-12 18:24:23] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:24:23] text à été applique à toute les images
+[2024-12-12 18:24:23] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:24:23] text à été applique à toute les images
+[2024-12-12 18:24:23] Erreur lors de l'application du filtre de ecriture : cannot open resource
+[2024-12-12 18:24:23] text à été applique à toute les images
+[2024-12-12 18:38:59] Erreur lors de la création du GIF : unknown file extension: 
+[2024-12-12 18:41:38] Erreur lors de la création du GIF : unknown file extension: 
+[2024-12-12 18:46:22] Image ajoutée au GIF : 1.jpeg
+[2024-12-12 18:46:22] Image ajoutée au GIF : 2.jpg
+[2024-12-12 18:46:22] Image ajoutée au GIF : 3.jpg
+[2024-12-12 18:46:22] Image ajoutée au GIF : 4.png
+[2024-12-12 18:46:22] Erreur lors de la création du GIF : unknown file extension: 

@@ -3,7 +3,7 @@ from logger import *
 from Importation import *
 
 input_folder = "img/default/"  # Dossier contenant les images
-output_folder = "img/modified"  # Dossier pour sauvegarder les images modifiés 
+output_folder = "img/modified/"  # Dossier pour sauvegarder les images modifiés 
 
 def blur (image,n) :
     try :
@@ -136,5 +136,103 @@ def apply_filter_images(liste_images, nom_effect, param):
         print(f"Erreur lors de l'application du filtre : {e}")
 
 
-#apply_filter_images(liste_images,"grey", None)
-#img.show()
+def create_gif_from_images(input_folder, output_path, duration=500):
+    """
+    Convertit une série d'images en un GIF animé.
+
+    Args:
+        input_folder (str): Dossier contenant les images à utiliser pour le GIF.
+        output_path (str): Chemin du fichier GIF ou dossier de sauvegarde.
+        duration (int): Durée d'affichage de chaque image en millisecondes.
+    """
+    images = []
+    try:
+        # Si output_path est un dossier, créer un chemin par défaut pour le fichier
+        if os.path.isdir(output_path):
+            output_path = os.path.join(output_path, "output.gif")
+        else:
+            # Créer le dossier parent si nécessaire
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Vérifie et force l'extension .gif
+        if not output_path.lower().endswith(".gif"):
+            print("L'extension .gif manquait. Correction automatique...")
+            output_path += ".gif"
+
+        # Liste et trie les fichiers du dossier d'entrée
+        for file_name in sorted(os.listdir(input_folder)):
+            file_path = os.path.join(input_folder, file_name)
+            if file_name.lower().endswith((".png", ".jpg", ".jpeg", ".bmp", ".tiff")):
+                try:
+                    img = Image.open(file_path)
+                    images.append(img)
+                    print(f"Image ajoutée au GIF : {file_name}")
+                except Exception as e:
+                    print(f"Erreur lors de l'ouverture de l'image {file_name} : {e}")
+
+        # Vérifie qu'il y a des images valides
+        if not images:
+            print("Erreur : Aucune image valide trouvée pour créer un GIF.")
+            return
+
+        # Génère le GIF
+        try:
+            images[0].save(
+                output_path,
+                save_all=True,
+                append_images=images[1:],
+                duration=duration,
+                loop=0
+            )
+            print(f"GIF créé avec succès : {output_path}")
+        except Exception as e:
+            print(f"Erreur lors de la création du GIF : {e}")
+    except Exception as e:
+        print(f"Erreur lors de l'accès au dossier {input_folder} ou {output_path} : {e}")
+
+def create_single_image_gifs(input_folder, output_folder, duration=500):
+    """
+    Crée un GIF par image dans le dossier de sortie, avec un seul cycle par GIF.
+
+    Args:
+        input_folder (str): Dossier contenant les images.
+        output_folder (str): Dossier où enregistrer les GIF.
+        duration (int): Durée d'affichage de l'image dans le GIF (millisecondes).
+    """
+    try:
+        # Crée le dossier de sortie s'il n'existe pas
+        os.makedirs(output_folder, exist_ok=True)
+
+        # Parcourt les fichiers du dossier d'entrée
+        for file_name in sorted(os.listdir(input_folder)):
+            if file_name.lower().endswith((".png", ".jpg", ".jpeg", ".bmp", ".tiff")):
+                file_path = os.path.join(input_folder, file_name)
+                try:
+                    # Ouvre l'image
+                    img = Image.open(file_path)
+
+                    # Crée un nom de fichier de sortie pour le GIF
+                    gif_name = os.path.splitext(file_name)[0] + ".gif"
+                    gif_path = os.path.join(output_folder, gif_name)
+
+                    # Sauvegarde l'image comme un GIF avec un cycle unique
+                    img.save(
+                        gif_path,
+                        save_all=True,     # Indique qu'on génère un GIF
+                        append_images=[],  # Pas d'images supplémentaires
+                        duration=duration, # Durée de l'image dans le cycle
+                        loop=1             # Un seul cycle
+                    )
+                    print(f"GIF créé : {gif_path}")
+                except Exception as e:
+                    print(f"Erreur lors de la création du GIF pour {file_name} : {e}")
+    except Exception as e:
+        print(f"Erreur lors de l'accès aux dossiers : {e}")
+
+
+def gif_gestion (input_folder, outplut_folder, duration=500):
+
+    return create_gif_from_images(input_folder, output_folder, duration), create_single_image_gifs(input_folder, output_folder, duration)
+
+    
+gif_gestion(input_folder, output_folder,500)
