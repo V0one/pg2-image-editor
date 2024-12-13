@@ -25,9 +25,12 @@ def import_images_from_folder(input_folder):
             else:
                 print(f"Impossible de lire l'image : {file_name}")
                 log(f"Impossible de lire l'image : {file_name}") 
-    
-    print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
-    log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
+    if len(images) == 0 :
+        print(f"Le dossier rentré {input_folder} ne contient pas d'images")
+        log(f"Le dossier rentré {input_folder} ne contient pas d'images")
+    else :
+        print(f"{len(images)} images ont été importées depuis '{folder_path}'.")
+        log(f"{len(images)} images ont été importées depuis '{folder_path}'.")
     return images
 
 def process_images_in_folder(input_folder, output_folder, filters):
