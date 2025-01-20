@@ -1,6 +1,6 @@
 # pg2-image-editor
 
-#Ce programme a pour but de pouvoir modifier des images en leur rajoutant des filtres (Flou, Texte, Aquarell ...) 
+# Ce programme a pour but de pouvoir modifier des images en leur rajoutant des filtres (Flou, Texte, Aquarell ...) 
 
 importation.py
 
